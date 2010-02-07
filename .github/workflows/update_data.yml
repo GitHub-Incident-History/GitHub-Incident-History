@@ -1,0 +1,73 @@
+name: Update incidents data
+
+on:
+  push:
+    branches:
+      - 'main'
+
+  schedule:
+    - cron: '0 * * * *' # run every hour
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: 'main'
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run update script
+        id: update
+        run: python3 main.py update
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+         commit_message: Update incidents data
+
+  commit:
+    needs: update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: 'main'
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run update script
+        id: update
+        run: python3 main.py commit
+      
+      - name: Reset default branch
+        run: gh api repos/GitHub-Incident-History/GitHub-Incident-History --method PATCH --field 'default_branch=test-branch'
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
+      - name: Wait a second for the contributions count to be updated
+        run: sleep 10
+  
+      - name: Restore default branch
+        run: gh api repos/GitHub-Incident-History/GitHub-Incident-History --method PATCH --field 'default_branch=github-incident-history'
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          
