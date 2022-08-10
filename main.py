@@ -159,7 +159,11 @@ def update_data():
             download_incident_record(incident_code)
 
 def update_commits():
-    pass
+    os.system('git branch -D github-incidents-history')
+    os.system('git checkout --orphan github-incidents-history')
+    os.system('git reset')
+    os.system('git checkout .')
+    create_incident_commits()
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
@@ -168,4 +172,8 @@ if __name__ == '__main__':
     command = sys.argv[1]
     if command == 'update':
         update_data()
-    
+    elif command == 'commit':
+        update_commits()
+    else:
+        print_help()
+        exit(1)
