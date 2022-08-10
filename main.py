@@ -144,14 +144,12 @@ def print_help():
     print("commit               Update github-incident-history commit history")
 
 def update_data():
-    os.system('echo "::set-output name=update::false"')
     incident_codes = read_incident_codes()
     recent_incidents = get_recent_incidents()
     recent_incidents.reverse()
     for incident in recent_incidents:
         if (incident['id'] not in incident_codes) and (incident['status'] == 'resolved') and (incident['impact'] != 'maintenance'): 
             incident_codes.insert(0, incident['id'])
-            os.system('echo "::set-output name=update::true"')
 
     with open('incident_codes.json', 'w') as file:
         json.dump(incident_codes, file)

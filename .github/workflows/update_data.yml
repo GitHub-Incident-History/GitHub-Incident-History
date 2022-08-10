@@ -12,8 +12,6 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    outputs:
-      update: ${{ steps.update.outputs.new_updates }}
 
     steps:
       - uses: actions/checkout@v3
@@ -37,10 +35,10 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
          commit_message: Update incidents data
+
   commit:
     needs: update
     runs-on: ubuntu-latest
-    if: ${{needs.update.outputs.update}} == 'true'
     steps:
       - uses: actions/checkout@v3
         with:
