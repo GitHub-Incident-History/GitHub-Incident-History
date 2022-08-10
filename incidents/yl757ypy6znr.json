@@ -1,0 +1,87 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "yl757ypy6znr",
+        "name": "Incident on 2020-06-19 08:52 UTC",
+        "status": "resolved",
+        "created_at": "2020-06-19T08:52:04.185Z",
+        "updated_at": "2020-06-19T09:30:18.771Z",
+        "monitoring_at": null,
+        "resolved_at": "2020-06-19T09:30:18.753Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/h9jrf2dblpcg",
+        "started_at": "2020-06-19T08:52:04.178Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "p7wrb3f0hvkz",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "yl757ypy6znr",
+                "created_at": "2020-06-19T09:30:18.753Z",
+                "updated_at": "2020-06-19T09:30:18.753Z",
+                "display_at": "2020-06-19T09:30:18.753Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "6z2ksdlj123j",
+                "status": "investigating",
+                "body": "We have identified the source of elevated errors and are working on recovery.",
+                "incident_id": "yl757ypy6znr",
+                "created_at": "2020-06-19T09:19:12.648Z",
+                "updated_at": "2020-06-19T09:19:12.648Z",
+                "display_at": "2020-06-19T09:19:12.648Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "n1sy8j9w86w4",
+                "status": "investigating",
+                "body": "We are investigating elevated error rates.",
+                "incident_id": "yl757ypy6znr",
+                "created_at": "2020-06-19T08:52:04.222Z",
+                "updated_at": "2020-06-19T08:52:04.222Z",
+                "display_at": "2020-06-19T08:52:04.222Z",
+                "affected_components": [
+                    {
+                        "code": "0l2p9nhqnxpd",
+                        "name": "Visit www.githubstatus.com for more information",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "0l2p9nhqnxpd",
+                "name": "Visit www.githubstatus.com for more information",
+                "status": "operational",
+                "created_at": "2018-12-05T19:39:40.838Z",
+                "updated_at": "2020-04-02T21:56:21.954Z",
+                "position": 4,
+                "description": null,
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

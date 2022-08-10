@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "2n12810rbx48",
+        "name": "Incident on 2013-04-09 13:20:12 UTC",
+        "status": "resolved",
+        "created_at": "2013-04-09T13:20:12.000Z",
+        "updated_at": "2018-12-05T11:33:44.584Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-04-09T13:20:12.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/9ab915303",
+        "started_at": "2013-04-09T13:20:12.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "dc865g1978kd",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-04-09 13:20:12</strong> - We are currently investigating elevated exception rates.</li><li><strong>2013-04-09 15:21:36</strong> - We are continuing to monitor for exceptions.</li><li><strong>2013-04-09 15:38:22</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "2n12810rbx48",
+                "created_at": "2018-12-05T11:33:44.575Z",
+                "updated_at": "2018-12-05T11:33:44.575Z",
+                "display_at": "2013-04-09T13:20:12.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

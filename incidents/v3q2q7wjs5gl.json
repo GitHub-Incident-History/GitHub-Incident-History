@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "v3q2q7wjs5gl",
+        "name": "Incident on 2012-08-16 05:42:33 UTC",
+        "status": "resolved",
+        "created_at": "2012-08-16T05:42:33.000Z",
+        "updated_at": "2018-12-05T11:29:45.130Z",
+        "monitoring_at": null,
+        "resolved_at": "2012-08-16T05:42:33.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/e795cc739",
+        "started_at": "2012-08-16T05:42:33.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "qr355q7cr0b7",
+                "status": "resolved",
+                "body": "<ul><li><strong>2012-08-16 05:42:33</strong> - We've identified and resolved the cause for the failure during the database maintenance window and are proceeding with the planned database maintenance.</li><li><strong>2012-08-16 06:01:50</strong> - The new database cluster is in place and services are beginning to come back up.</li><li><strong>2012-08-16 06:16:20</strong> - Response times for github.com are still improving as we fix broken Unicorns. Services are available, but a little slow at the moment. Processing for queued jobs is currently disabled.</li><li><strong>2012-08-16 06:21:17</strong> - We've re-enabled processing for queued jobs. The backlog from the maintenance window is currently being worked through.</li><li><strong>2012-08-16 06:41:07</strong> - We've processed a bit over half of the queued jobs from the maintenance. Response time has improved significantly and is continuing to decrease.</li><li><strong>2012-08-16 06:56:26</strong> - App response times are now completely back to normal. All job queues should be caught up except for search index updates.</li><li><strong>2012-08-16 07:12:20</strong> - All systems normal!</li></ul>",
+                "incident_id": "v3q2q7wjs5gl",
+                "created_at": "2018-12-05T11:29:45.117Z",
+                "updated_at": "2018-12-05T11:29:45.117Z",
+                "display_at": "2012-08-16T05:42:33.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "1ywm8834qqm3",
+        "name": "Incident on 2015-03-29 08:05:16 UTC",
+        "status": "resolved",
+        "created_at": "2015-03-29T08:05:16.000Z",
+        "updated_at": "2018-12-05T11:40:39.512Z",
+        "monitoring_at": null,
+        "resolved_at": "2015-03-29T08:05:16.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/81a57f144",
+        "started_at": "2015-03-29T08:05:16.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "rbzghdqb4yby",
+                "status": "resolved",
+                "body": "<ul><li><strong>2015-03-29 08:05:16</strong> - Minor service outage.</li><li><strong>2015-03-29 08:18:34</strong> - The ongoing DDoS attack has changed tactics. We are experiencing intermittent service outages and working to mitigate.</li><li><strong>2015-03-29 10:53:53</strong> - Services are stable as we continue to mitigate against a large scale DDoS attack.</li><li><strong>2015-03-29 14:52:39</strong> - The ongoing DDoS attack is affecting connectivity to Gist. We're working to mitigate further disruption.</li><li><strong>2015-03-29 17:21:21</strong> - 87 hours in, our mitigation is deflecting most attack traffic. We're aware of intermittent issues and continue to adapt our response.</li><li><strong>2015-03-29 19:25:41</strong> - We've adjusted our mitigation tactics and are observing improved TCP performance for the majority of non-attack traffic.</li><li><strong>2015-03-30 00:38:27</strong> - All systems reporting at 100%. Attack traffic continues, so we remain on high alert.</li><li><strong>2015-03-30 06:46:44</strong> - The DDoS attack has evolved and we are working to mitigate</li><li><strong>2015-03-30 11:50:44</strong> - All systems reporting at 100%. Attack traffic continues, so we remain on high alert.</li><li><strong>2015-03-30 19:32:39</strong> - After 113 hours of sustained DDoS attacks our defenses are holding. We will keep our status at yellow until the threat has subsided.</li><li><strong>2015-03-31 00:09:29</strong> - Hour 118: Mitigation remains effective and service is stable.</li><li><strong>2015-03-31 11:11:31</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "1ywm8834qqm3",
+                "created_at": "2018-12-05T11:40:39.501Z",
+                "updated_at": "2018-12-05T11:40:39.501Z",
+                "display_at": "2015-03-29T08:05:16.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

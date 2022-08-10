@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "pb80n8c41d1c",
+        "name": "Incident on 2013-08-23 13:42:01 UTC",
+        "status": "resolved",
+        "created_at": "2013-08-23T13:42:01.000Z",
+        "updated_at": "2018-12-05T11:36:31.140Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-08-23T13:42:01.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/f4751c01e",
+        "started_at": "2013-08-23T13:42:01.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "5w5j97pnk7my",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-08-23 13:42:01</strong> - Pushes may not be immediately updated in the web UI due to a queue backlog. We are working on the problem.</li><li><strong>2013-08-23 13:53:41</strong> - Queue graphs are trending down and to the right. Your pushes should be reflected on the site soon.</li><li><strong>2013-08-23 14:01:32</strong> - The queues are all looking good. Sorry about that! Just for fun, here's the graph where we watched this live: http://bit.ly/1dai3Mb</li></ul>",
+                "incident_id": "pb80n8c41d1c",
+                "created_at": "2018-12-05T11:36:31.128Z",
+                "updated_at": "2018-12-05T11:36:31.128Z",
+                "display_at": "2013-08-23T13:42:01.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

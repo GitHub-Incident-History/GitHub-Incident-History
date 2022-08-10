@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "nhl3xqq5h021",
+        "name": "Incident on 2012-08-16 05:00:13 UTC",
+        "status": "resolved",
+        "created_at": "2012-08-16T05:00:13.000Z",
+        "updated_at": "2018-12-05T11:29:43.614Z",
+        "monitoring_at": null,
+        "resolved_at": "2012-08-16T05:00:13.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/12a2bb47e",
+        "started_at": "2012-08-16T05:00:13.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "nlb8ch9t70qt",
+                "status": "resolved",
+                "body": "<ul><li><strong>2012-08-16 05:00:13</strong> - We're starting our scheduled database maintenanace now. We expect to back up in a few minutes!</li><li><strong>2012-08-16 05:16:55</strong> - We're still working on the database maintenance but we're wrapping things up now.</li><li><strong>2012-08-16 05:23:12</strong> - We encountered some problems with the database maintenance and are now rolling back.</li><li><strong>2012-08-16 05:27:06</strong> - Rollback is complete and all systems are now back online.</li></ul>",
+                "incident_id": "nhl3xqq5h021",
+                "created_at": "2018-12-05T11:29:43.602Z",
+                "updated_at": "2018-12-05T11:29:43.602Z",
+                "display_at": "2012-08-16T05:00:13.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

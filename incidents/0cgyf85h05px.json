@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "0cgyf85h05px",
+        "name": "Incident on 2012-04-30 22:54:34 UTC",
+        "status": "resolved",
+        "created_at": "2012-04-30T22:54:34.000Z",
+        "updated_at": "2018-12-05T11:29:01.792Z",
+        "monitoring_at": null,
+        "resolved_at": "2012-04-30T22:54:34.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/92e32f1fb",
+        "started_at": "2012-04-30T22:54:34.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "30c6y3vzry4g",
+                "status": "resolved",
+                "body": "<ul><li><strong>2012-04-30 22:54:34</strong> - We're investigating performance problems.</li><li><strong>2012-04-30 23:08:40</strong> - Performance is returning to normal. Sorry for the hiccup.</li></ul>",
+                "incident_id": "0cgyf85h05px",
+                "created_at": "2018-12-05T11:29:01.776Z",
+                "updated_at": "2018-12-05T11:29:01.776Z",
+                "display_at": "2012-04-30T22:54:34.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

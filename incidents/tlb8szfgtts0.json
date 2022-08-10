@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "tlb8szfgtts0",
+        "name": "Incident on 2017-11-03 05:14:12 UTC",
+        "status": "resolved",
+        "created_at": "2017-11-03T05:14:12.000Z",
+        "updated_at": "2018-12-05T11:44:37.511Z",
+        "monitoring_at": null,
+        "resolved_at": "2017-11-03T05:14:12.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/099129c27",
+        "started_at": "2017-11-03T05:14:12.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "k4mpfdwrsk15",
+                "status": "resolved",
+                "body": "<ul><li><strong>2017-11-03 05:14:12</strong> - We're investigating increased error rates for GitHub Pages builds.</li><li><strong>2017-11-03 05:40:31</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "tlb8szfgtts0",
+                "created_at": "2018-12-05T11:44:37.500Z",
+                "updated_at": "2018-12-05T11:44:37.500Z",
+                "display_at": "2017-11-03T05:14:12.000Z",
+                "affected_components": [
+                    {
+                        "code": "vg70hn9s2tyj",
+                        "name": "GitHub Pages",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "vg70hn9s2tyj",
+                "name": "Pages",
+                "status": "operational",
+                "created_at": "2017-01-31T20:04:33.923Z",
+                "updated_at": "2022-08-10T01:31:09.465Z",
+                "position": 9,
+                "description": "Frontend application and API servers for Pages builds",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

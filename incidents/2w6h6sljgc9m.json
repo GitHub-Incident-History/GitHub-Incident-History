@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "2w6h6sljgc9m",
+        "name": "Incident on 2012-01-03 16:43:00 UTC",
+        "status": "resolved",
+        "created_at": "2012-01-03T16:43:00.000Z",
+        "updated_at": "2018-12-05T11:27:48.418Z",
+        "monitoring_at": null,
+        "resolved_at": "2012-01-03T16:43:00.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/b6e9c815e",
+        "started_at": "2012-01-03T16:43:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "vgvkwpr6619n",
+                "status": "resolved",
+                "body": "<ul><li><strong>2012-01-03 16:43:00</strong> - Pushing and fetching via HTTP is slow and/or times out with a 403 or 504 error. We're researching the issue. The operation often goes through on a retry. SSH and git protocol access are not effected.</li><li><strong>2012-01-03 17:18:00</strong> - We're rolling out some changes to correct the git over http issues now. Hang tight.</li><li><strong>2012-01-03 17:19:00</strong> - Git access over HTTP has been fully restored. A too-low haproxy maximum connections limit was responsible and has been increased significantly.</li></ul>",
+                "incident_id": "2w6h6sljgc9m",
+                "created_at": "2018-12-05T11:27:48.408Z",
+                "updated_at": "2018-12-05T11:27:48.408Z",
+                "display_at": "2012-01-03T16:43:00.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

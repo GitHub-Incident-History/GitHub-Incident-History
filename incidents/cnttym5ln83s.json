@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "cnttym5ln83s",
+        "name": "Incident on 2014-03-12 16:09:43 UTC",
+        "status": "resolved",
+        "created_at": "2014-03-12T16:09:43.000Z",
+        "updated_at": "2018-12-05T11:38:38.672Z",
+        "monitoring_at": null,
+        "resolved_at": "2014-03-12T16:09:43.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/1f1fc9c1e",
+        "started_at": "2014-03-12T16:09:43.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "gzm6j0zhtcgx",
+                "status": "resolved",
+                "body": "<ul><li><strong>2014-03-12 16:09:43</strong> - We're investigating issues reaching a small percentage of repositories.</li><li><strong>2014-03-12 16:14:51</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "cnttym5ln83s",
+                "created_at": "2018-12-05T11:38:38.661Z",
+                "updated_at": "2018-12-05T11:38:38.661Z",
+                "display_at": "2014-03-12T16:09:43.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "dnjn5949mmfm",
+        "name": "Incident on 2016-02-08 18:33:27 UTC",
+        "status": "resolved",
+        "created_at": "2016-02-08T18:33:27.000Z",
+        "updated_at": "2018-12-05T11:41:50.600Z",
+        "monitoring_at": null,
+        "resolved_at": "2016-02-08T18:33:27.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/f01ae5c38",
+        "started_at": "2016-02-08T18:33:27.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "lvh3zprq7wvs",
+                "status": "resolved",
+                "body": "<ul><li><strong>2016-02-08 18:33:27</strong> - We are investigating reports of delayed webhooks and notifications.</li><li><strong>2016-02-08 18:54:56</strong> - We continue to investigate delays with webhooks and notifications.</li><li><strong>2016-02-08 19:17:43</strong> - We continue to monitor the situation as all services recover.</li><li><strong>2016-02-08 19:37:00</strong> - We continue to monitor as services recover.</li><li><strong>2016-02-08 20:03:05</strong> - Recovery continues. A small number of users may experience a delay in notifications.</li><li><strong>2016-02-08 20:23:00</strong> - \"Notifications are recovering. We continue to monitor.\".</li></ul>",
+                "incident_id": "dnjn5949mmfm",
+                "created_at": "2018-12-05T11:41:50.589Z",
+                "updated_at": "2018-12-05T11:41:50.589Z",
+                "display_at": "2016-02-08T18:33:27.000Z",
+                "affected_components": [
+                    {
+                        "code": "brv1bkgrwx7q",
+                        "name": "API Requests",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "5bfcr2x9x8kc",
+                        "name": "Notifications",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "brv1bkgrwx7q",
+                "name": "API Requests",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.621Z",
+                "updated_at": "2022-08-10T01:31:06.821Z",
+                "position": 2,
+                "description": "Requests for GitHub APIs",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "10vm6ctn52gx",
+        "name": "Incident with GitHub Packages and GitHub Pages",
+        "status": "resolved",
+        "created_at": "2022-06-22T12:12:40.627Z",
+        "updated_at": "2022-06-22T12:57:06.960Z",
+        "monitoring_at": null,
+        "resolved_at": "2022-06-22T12:57:06.938Z",
+        "impact": "minor",
+        "shortlink": "https://stspg.io/ny351v65f99j",
+        "started_at": "2022-06-22T12:12:40.619Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "yzsjvcg5lcky",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "10vm6ctn52gx",
+                "created_at": "2022-06-22T12:57:06.938Z",
+                "updated_at": "2022-06-22T12:57:06.938Z",
+                "display_at": "2022-06-22T12:57:06.938Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "yjlc43c2c5s3",
+                "status": "investigating",
+                "body": "GitHub Packages is operating normally.",
+                "incident_id": "10vm6ctn52gx",
+                "created_at": "2022-06-22T12:51:55.774Z",
+                "updated_at": "2022-06-22T12:51:55.774Z",
+                "display_at": "2022-06-22T12:51:55.774Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "4sbspn4d7b0f",
+                "status": "investigating",
+                "body": "GitHub Pages builds are currently degraded due to an ongoing incident with GitHub Packages",
+                "incident_id": "10vm6ctn52gx",
+                "created_at": "2022-06-22T12:45:05.292Z",
+                "updated_at": "2022-06-22T12:45:05.292Z",
+                "display_at": "2022-06-22T12:45:05.292Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "rf3g7qnglvq5",
+                "status": "investigating",
+                "body": "GitHub Packages is experiencing degraded performance. We are continuing to investigate.",
+                "incident_id": "10vm6ctn52gx",
+                "created_at": "2022-06-22T12:43:28.861Z",
+                "updated_at": "2022-06-22T12:43:28.861Z",
+                "display_at": "2022-06-22T12:43:28.861Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "r7f2z94qmxm6",
+                "status": "investigating",
+                "body": "We are investigating reports of degraded performance for GitHub Pages.",
+                "incident_id": "10vm6ctn52gx",
+                "created_at": "2022-06-22T12:12:40.673Z",
+                "updated_at": "2022-06-22T12:12:40.673Z",
+                "display_at": "2022-06-22T12:12:40.673Z",
+                "affected_components": [
+                    {
+                        "code": "vg70hn9s2tyj",
+                        "name": "GitHub Pages",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "vg70hn9s2tyj",
+                "name": "Pages",
+                "status": "operational",
+                "created_at": "2017-01-31T20:04:33.923Z",
+                "updated_at": "2022-08-10T01:31:09.465Z",
+                "position": 9,
+                "description": "Frontend application and API servers for Pages builds",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

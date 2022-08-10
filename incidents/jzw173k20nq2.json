@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "jzw173k20nq2",
+        "name": "Incident on 2017-03-07 21:36:33 UTC",
+        "status": "resolved",
+        "created_at": "2017-03-07T21:36:33.000Z",
+        "updated_at": "2018-12-05T11:43:35.107Z",
+        "monitoring_at": null,
+        "resolved_at": "2017-03-07T21:36:33.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/0d6f49c78",
+        "started_at": "2017-03-07T21:36:33.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "l5hv7k6mm8wp",
+                "status": "resolved",
+                "body": "<ul><li><strong>2017-03-07 21:36:33</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "jzw173k20nq2",
+                "created_at": "2018-12-05T11:43:35.096Z",
+                "updated_at": "2018-12-05T11:43:35.096Z",
+                "display_at": "2017-03-07T21:36:33.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

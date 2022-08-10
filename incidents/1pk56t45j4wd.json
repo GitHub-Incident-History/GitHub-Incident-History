@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "1pk56t45j4wd",
+        "name": "Incident on 2012-04-27 21:31:13 UTC",
+        "status": "resolved",
+        "created_at": "2012-04-27T21:31:13.000Z",
+        "updated_at": "2018-12-05T11:29:00.255Z",
+        "monitoring_at": null,
+        "resolved_at": "2012-04-27T21:31:13.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/1c8c0f7b1",
+        "started_at": "2012-04-27T21:31:13.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "hnc7rkzns90s",
+                "status": "resolved",
+                "body": "<ul><li><strong>2012-04-27 21:31:13</strong> - We're investigating reports of a GitHub Pages outage affecting some users.</li><li><strong>2012-04-27 21:38:29</strong> - We've isolated the problems with GitHub Pages to users with A records instead of CNAMEs to pages.github.com. We're working to restore service on the original IP, but if you're able to, changing your A record to point to 204.232.175.78 may restore service </li><li><strong>2012-04-27 22:22:37</strong> - Service has been restored to all GitHub Pages.</li></ul>",
+                "incident_id": "1pk56t45j4wd",
+                "created_at": "2018-12-05T11:29:00.244Z",
+                "updated_at": "2018-12-05T11:29:00.244Z",
+                "display_at": "2012-04-27T21:31:13.000Z",
+                "affected_components": [
+                    {
+                        "code": "vg70hn9s2tyj",
+                        "name": "GitHub Pages",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "vg70hn9s2tyj",
+                "name": "Pages",
+                "status": "operational",
+                "created_at": "2017-01-31T20:04:33.923Z",
+                "updated_at": "2022-08-10T01:31:09.465Z",
+                "position": 9,
+                "description": "Frontend application and API servers for Pages builds",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

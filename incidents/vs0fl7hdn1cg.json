@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "vs0fl7hdn1cg",
+        "name": "Incident on 2016-04-06 18:38:06 UTC",
+        "status": "resolved",
+        "created_at": "2016-04-06T18:38:06.000Z",
+        "updated_at": "2018-12-05T11:42:18.446Z",
+        "monitoring_at": null,
+        "resolved_at": "2016-04-06T18:38:06.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/a392a1eb1",
+        "started_at": "2016-04-06T18:38:06.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "66zkp7z7345p",
+                "status": "resolved",
+                "body": "<ul><li><strong>2016-04-06 18:38:06</strong> - We're working to restore affected data, but contact us via https://github.com/contact for assistance if you have questions or concerns.</li></ul>",
+                "incident_id": "vs0fl7hdn1cg",
+                "created_at": "2018-12-05T11:42:18.433Z",
+                "updated_at": "2018-12-05T11:42:18.433Z",
+                "display_at": "2016-04-06T18:38:06.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

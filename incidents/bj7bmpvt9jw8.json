@@ -1,0 +1,82 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "bj7bmpvt9jw8",
+        "name": "Incident on 2014-03-11 21:29:45 UTC",
+        "status": "resolved",
+        "created_at": "2014-03-11T21:29:45.000Z",
+        "updated_at": "2018-12-05T11:38:36.953Z",
+        "monitoring_at": null,
+        "resolved_at": "2014-03-11T21:29:45.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/00fded644",
+        "started_at": "2014-03-11T21:29:45.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "qv4g90r4bfgl",
+                "status": "resolved",
+                "body": "<ul><li><strong>2014-03-11 21:29:45</strong> - We are currently investigating connectivity issues to GitHub.com. We will update status once we know more.</li><li><strong>2014-03-11 21:39:37</strong> - We continue to investigate connectivity problems to GitHub.com. We'll update when we know more.</li><li><strong>2014-03-11 22:02:20</strong> - We have identified the problem and are working to restore service as quickly as we can.</li><li><strong>2014-03-11 22:10:58</strong> - The site is recovering but we continue to monitor the situation very closely.</li><li><strong>2014-03-11 22:32:03</strong> - We're all working hard to restore service as quickly as possible.</li><li><strong>2014-03-11 22:39:19</strong> - The site is once again responsive and we believe we have a handle on the problem. We will continue to monitor things very closely.</li><li><strong>2014-03-11 23:13:08</strong> - GitHub.com continues to operate normally, but we are performing some additional maintenance before we return to green status.</li><li><strong>2014-03-11 23:22:08</strong> - We're investigating problems connecting to GitHub.com.</li><li><strong>2014-03-11 23:34:35</strong> - GitHub.com is once again responsive. We have all hands on deck mitigating an evolving series of DDoS attacks.</li><li><strong>2014-03-12 00:04:32</strong> - GitHub.com is operating normally, despite an ongoing DDoS attack. The mitigations we have in place are proving effective in protecting us and we're hopeful that we've got this one resolved.</li></ul>",
+                "incident_id": "bj7bmpvt9jw8",
+                "created_at": "2018-12-05T11:38:36.941Z",
+                "updated_at": "2018-12-05T11:38:36.941Z",
+                "display_at": "2014-03-11T21:29:45.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "mbj517qzzv29",
+        "name": "Incident on 2010-10-21 07:04:00 UTC",
+        "status": "resolved",
+        "created_at": "2010-10-21T07:04:00.000Z",
+        "updated_at": "2018-12-05T11:25:57.219Z",
+        "monitoring_at": null,
+        "resolved_at": "2010-10-21T07:04:00.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/1520c162a",
+        "started_at": "2010-10-21T07:04:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "slyt018y13bb",
+                "status": "resolved",
+                "body": "<ul><li><strong>2010-10-21 07:04:00</strong> - Site is offline. We're researching the issue.</li><li><strong>2010-10-21 07:18:00</strong> - Lost a switch, which cascaded into fileserver failures. New switch is almost ready and we're bringing file servers back up.\\r\\n\\r\\nUPDATE: This was largely inaccurate. Apologies. -Ryan</li><li><strong>2010-10-21 07:50:00</strong> - And we're back.\\r\\n\\r\\nThe root cause was a long-running database query blocking all other connections, which cascaded into issues across a large number of other servers. Blog post with more detail forthcoming.</li></ul>",
+                "incident_id": "mbj517qzzv29",
+                "created_at": "2018-12-05T11:25:57.209Z",
+                "updated_at": "2018-12-05T11:25:57.209Z",
+                "display_at": "2010-10-21T07:04:00.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

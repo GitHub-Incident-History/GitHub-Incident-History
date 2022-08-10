@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "7sgyylm9kjyx",
+        "name": "Incident on 2014-11-18 19:13:23 UTC",
+        "status": "resolved",
+        "created_at": "2014-11-18T19:13:23.000Z",
+        "updated_at": "2018-12-05T11:40:06.389Z",
+        "monitoring_at": null,
+        "resolved_at": "2014-11-18T19:13:23.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/c427c39e8",
+        "started_at": "2014-11-18T19:13:23.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "bzd2pf5b4h03",
+                "status": "resolved",
+                "body": "<ul><li><strong>2014-11-18 19:13:23</strong> - GitHub Pages domains pointed to deprecated IPs are now returning 404s. Please see http://git.io/HjSLlQ if you're affected.</li></ul>",
+                "incident_id": "7sgyylm9kjyx",
+                "created_at": "2018-12-05T11:40:06.377Z",
+                "updated_at": "2018-12-05T11:40:06.377Z",
+                "display_at": "2014-11-18T19:13:23.000Z",
+                "affected_components": [
+                    {
+                        "code": "vg70hn9s2tyj",
+                        "name": "GitHub Pages",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "vg70hn9s2tyj",
+                "name": "Pages",
+                "status": "operational",
+                "created_at": "2017-01-31T20:04:33.923Z",
+                "updated_at": "2022-08-10T01:31:09.465Z",
+                "position": 9,
+                "description": "Frontend application and API servers for Pages builds",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

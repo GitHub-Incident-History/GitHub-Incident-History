@@ -1,0 +1,95 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "j8bknc99hpyd",
+        "name": "Incident on 2021-03-22 12:36 UTC",
+        "status": "resolved",
+        "created_at": "2021-03-22T12:36:43.552Z",
+        "updated_at": "2021-03-22T12:42:55.708Z",
+        "monitoring_at": null,
+        "resolved_at": "2021-03-22T12:42:55.691Z",
+        "impact": "minor",
+        "shortlink": "https://stspg.io/qlsttvhfr408",
+        "started_at": "2021-03-22T12:36:43.540Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "pl96cvnfzmtp",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "j8bknc99hpyd",
+                "created_at": "2021-03-22T12:42:55.691Z",
+                "updated_at": "2021-03-22T12:42:55.691Z",
+                "display_at": "2021-03-22T12:42:55.691Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "lh6gh0gslypp",
+                "status": "investigating",
+                "body": "We are investigating reports of degraded performance for Issues and Pull Requests.",
+                "incident_id": "j8bknc99hpyd",
+                "created_at": "2021-03-22T12:36:43.614Z",
+                "updated_at": "2021-03-22T12:36:43.614Z",
+                "display_at": "2021-03-22T12:36:43.614Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "hhtssxt0f5v2",
+                        "name": "Pull Requests",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "hhtssxt0f5v2",
+                "name": "Pull Requests",
+                "status": "operational",
+                "created_at": "2020-09-02T15:39:06.329Z",
+                "updated_at": "2022-08-10T01:31:09.926Z",
+                "position": 6,
+                "description": "Requests for Pull Requests on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

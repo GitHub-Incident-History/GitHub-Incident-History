@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "btm044fv4xd8",
+        "name": "Incident on 2014-08-04 15:20:47 UTC",
+        "status": "resolved",
+        "created_at": "2014-08-04T15:20:47.000Z",
+        "updated_at": "2018-12-05T11:39:31.014Z",
+        "monitoring_at": null,
+        "resolved_at": "2014-08-04T15:20:47.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/4f30664c8",
+        "started_at": "2014-08-04T15:20:47.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "5p7hr5ltfndr",
+                "status": "resolved",
+                "body": "<ul><li><strong>2014-08-04 15:20:47</strong> - We're investigating reports of some avatars not displaying.</li><li><strong>2014-08-04 15:50:53</strong> - The problem affecting avatar display has been identified. We're working to deploy a fix ASAP.</li><li><strong>2014-08-04 16:10:33</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "btm044fv4xd8",
+                "created_at": "2018-12-05T11:39:31.004Z",
+                "updated_at": "2018-12-05T11:39:31.004Z",
+                "display_at": "2014-08-04T15:20:47.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "z2trgr7tmc26",
+        "name": "Incident on 2016-04-05 20:43:32 UTC",
+        "status": "resolved",
+        "created_at": "2016-04-05T20:43:32.000Z",
+        "updated_at": "2018-12-05T11:42:15.195Z",
+        "monitoring_at": null,
+        "resolved_at": "2016-04-05T20:43:32.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/0ad37e4e1",
+        "started_at": "2016-04-05T20:43:32.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "h2gq1y6f5b8p",
+                "status": "resolved",
+                "body": "<ul><li><strong>2016-04-05 20:43:32</strong> - Minor service outage.</li><li><strong>2016-04-05 20:54:35</strong> - GitHub.com is unavailable while we resolve an issue with one of our backend services.</li><li><strong>2016-04-05 21:08:29</strong> - GitHub.com response times are returning to normal.</li><li><strong>2016-04-05 21:29:52</strong> - Our systems are working through a queue backlog. In the meantime, new pushes may take some time to show on GitHub.com.</li><li><strong>2016-04-05 21:51:33</strong> - We continute to work through a sizeable queue backlog.</li><li><strong>2016-04-05 22:19:00</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "z2trgr7tmc26",
+                "created_at": "2018-12-05T11:42:15.184Z",
+                "updated_at": "2018-12-05T11:42:15.184Z",
+                "display_at": "2016-04-05T20:43:32.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

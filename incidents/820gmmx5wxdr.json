@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "820gmmx5wxdr",
+        "name": "Incident on 2013-05-11 21:48:47 UTC",
+        "status": "resolved",
+        "created_at": "2013-05-11T21:48:47.000Z",
+        "updated_at": "2018-12-05T11:34:44.674Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-05-11T21:48:47.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/07b100584",
+        "started_at": "2013-05-11T21:48:47.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "7wm41st7k6ch",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-05-11 21:48:47</strong> - We're investigating an exception spike.</li><li><strong>2013-05-11 21:57:49</strong> - We've taken a misbehaving fileserver pair offline to perform maintenance.</li><li><strong>2013-05-12 00:11:52</strong> - We're still performing maintenance on several fileserver clusters. Some repositories are currently unavailable.</li><li><strong>2013-05-12 03:29:48</strong> - We've restored access to all but 3% of repositories and continue our work to restore service completely.</li><li><strong>2013-05-12 06:00:07</strong> - We are still performing maintenance on ~0.2% of repositories.</li><li><strong>2013-05-12 06:41:03</strong> - The 3% of repositories previously affected are temporarily unavailable again.</li><li><strong>2013-05-12 08:37:07</strong> - We're continuing to perform maintenance on ~0.18% of repositories.</li><li><strong>2013-05-12 14:49:16</strong> - Work is continuing to restore access to the affected repositories. Please accept our sincere apologies for the lengthy service impact.</li><li><strong>2013-05-12 16:07:03</strong> - We're performing some final verification checks on the affected fileserver and plan to bring it online shortly.</li><li><strong>2013-05-12 16:55:46</strong> - All repositories are now available.</li></ul>",
+                "incident_id": "820gmmx5wxdr",
+                "created_at": "2018-12-05T11:34:44.661Z",
+                "updated_at": "2018-12-05T11:34:44.661Z",
+                "display_at": "2013-05-11T21:48:47.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

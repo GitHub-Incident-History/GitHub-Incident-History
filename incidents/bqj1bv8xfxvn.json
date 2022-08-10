@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "bqj1bv8xfxvn",
+        "name": "Incident on 2013-12-22 22:52:14 UTC",
+        "status": "resolved",
+        "created_at": "2013-12-22T22:52:14.000Z",
+        "updated_at": "2018-12-05T11:37:56.546Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-12-22T22:52:14.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/7ff89adc0",
+        "started_at": "2013-12-22T22:52:14.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "ljhgmpclwwvf",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-12-22 22:52:14</strong> - We are taking the site down for an emergency database maintenance. We should be back up shortly.</li><li><strong>2013-12-22 22:55:57</strong> - The site is back up and we are monitoring things closely for any signs of trouble.</li><li><strong>2013-12-22 22:58:43</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "bqj1bv8xfxvn",
+                "created_at": "2018-12-05T11:37:56.535Z",
+                "updated_at": "2018-12-05T11:37:56.535Z",
+                "display_at": "2013-12-22T22:52:14.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

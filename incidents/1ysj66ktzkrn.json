@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "1ysj66ktzkrn",
+        "name": "Incident on 2014-07-26 19:39:44 UTC",
+        "status": "resolved",
+        "created_at": "2014-07-26T19:39:44.000Z",
+        "updated_at": "2018-12-05T11:39:23.650Z",
+        "monitoring_at": null,
+        "resolved_at": "2014-07-26T19:39:44.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/69ae38b86",
+        "started_at": "2014-07-26T19:39:44.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "463dgnjyq27t",
+                "status": "resolved",
+                "body": "<ul><li><strong>2014-07-26 19:39:44</strong> - We're aware some users are experiencing issues with SSL. Please try the fix suggested by DigiCert, https://twitter.com/digicert/status/493117041394479104</li><li><strong>2014-07-26 19:43:30</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "1ysj66ktzkrn",
+                "created_at": "2018-12-05T11:39:23.640Z",
+                "updated_at": "2018-12-05T11:39:23.640Z",
+                "display_at": "2014-07-26T19:39:44.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

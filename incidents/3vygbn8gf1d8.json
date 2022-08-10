@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "3vygbn8gf1d8",
+        "name": "Incident on 2016-06-28 07:03:10 UTC",
+        "status": "resolved",
+        "created_at": "2016-06-28T07:03:10.000Z",
+        "updated_at": "2018-12-05T11:42:40.446Z",
+        "monitoring_at": null,
+        "resolved_at": "2016-06-28T07:03:10.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/007a34f1e",
+        "started_at": "2016-06-28T07:03:10.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "40xs5hcljd93",
+                "status": "resolved",
+                "body": "<ul><li><strong>2016-06-28 07:03:10</strong> - We are preparing to fail over a core data service, you may experience exceptions for a short period. We apologize for the inconvenience.</li><li><strong>2016-06-28 07:15:16</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "3vygbn8gf1d8",
+                "created_at": "2018-12-05T11:42:40.436Z",
+                "updated_at": "2018-12-05T11:42:40.436Z",
+                "display_at": "2016-06-28T07:03:10.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

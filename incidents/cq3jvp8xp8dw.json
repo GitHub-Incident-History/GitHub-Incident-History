@@ -1,0 +1,87 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "cq3jvp8xp8dw",
+        "name": "Incident on 2020-04-28 16:44 UTC",
+        "status": "resolved",
+        "created_at": "2020-04-28T16:44:42.393Z",
+        "updated_at": "2020-04-28T17:42:54.585Z",
+        "monitoring_at": null,
+        "resolved_at": "2020-04-28T17:42:54.567Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/d11wn18bgxms",
+        "started_at": "2020-04-28T16:44:42.385Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "g09hl4clpqqw",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "cq3jvp8xp8dw",
+                "created_at": "2020-04-28T17:42:54.567Z",
+                "updated_at": "2020-04-28T17:42:54.567Z",
+                "display_at": "2020-04-28T17:42:54.567Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "4zhd9b3w78cq",
+                "status": "investigating",
+                "body": "We have identified the problem with the cache action, and are working on a fix.",
+                "incident_id": "cq3jvp8xp8dw",
+                "created_at": "2020-04-28T17:16:10.081Z",
+                "updated_at": "2020-04-28T17:16:10.081Z",
+                "display_at": "2020-04-28T17:16:10.081Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "qhn4t9xjkg25",
+                "status": "investigating",
+                "body": "We are investigating elevated errors with GitHub Actions workflows using the cache action.",
+                "incident_id": "cq3jvp8xp8dw",
+                "created_at": "2020-04-28T16:44:42.430Z",
+                "updated_at": "2020-04-28T16:44:42.430Z",
+                "display_at": "2020-04-28T16:44:42.430Z",
+                "affected_components": [
+                    {
+                        "code": "0l2p9nhqnxpd",
+                        "name": "Visit www.githubstatus.com for more information",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "0l2p9nhqnxpd",
+                "name": "Visit www.githubstatus.com for more information",
+                "status": "operational",
+                "created_at": "2018-12-05T19:39:40.838Z",
+                "updated_at": "2020-04-02T21:56:21.954Z",
+                "position": 4,
+                "description": null,
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

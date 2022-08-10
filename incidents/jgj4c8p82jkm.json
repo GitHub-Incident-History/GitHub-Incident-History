@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "jgj4c8p82jkm",
+        "name": "Incident on 2012-08-15 21:28:43 UTC",
+        "status": "resolved",
+        "created_at": "2012-08-15T21:28:43.000Z",
+        "updated_at": "2018-12-05T11:29:41.972Z",
+        "monitoring_at": null,
+        "resolved_at": "2012-08-15T21:28:43.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/bddfb4bd6",
+        "started_at": "2012-08-15T21:28:43.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "4jckppjz52mh",
+                "status": "resolved",
+                "body": "<ul><li><strong>2012-08-15 21:28:43</strong> - We're processing through a backlog of queued jobs. An update will be provided once we're caught up.</li><li><strong>2012-08-15 22:48:38</strong> - All systems go.</li></ul>",
+                "incident_id": "jgj4c8p82jkm",
+                "created_at": "2018-12-05T11:29:41.961Z",
+                "updated_at": "2018-12-05T11:29:41.961Z",
+                "display_at": "2012-08-15T21:28:43.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

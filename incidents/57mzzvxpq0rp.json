@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "57mzzvxpq0rp",
+        "name": "Incident on 2011-01-04 16:10:00 UTC",
+        "status": "resolved",
+        "created_at": "2011-01-04T16:10:00.000Z",
+        "updated_at": "2018-12-05T11:26:22.082Z",
+        "monitoring_at": null,
+        "resolved_at": "2011-01-04T16:10:00.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/f176cc033",
+        "started_at": "2011-01-04T16:10:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "p3hrp3zz37yz",
+                "status": "resolved",
+                "body": "<ul><li><strong>2011-01-04 16:10:00</strong> - One of the file servers failed over temporarily.  Working on it...</li><li><strong>2011-01-04 17:40:00</strong> - The HA/fencing system on the downed file server is screwed up. Working hard to restore order to the universe.</li><li><strong>2011-01-04 18:00:00</strong> - The file server is back online in manual failover mode until we can figure out why it freaked. Most repos are now accessible. Will update when all repos are back online.</li><li><strong>2011-01-04 18:14:00</strong> - The site may show 404s or empty repos for the partitions that are still not online. Don't worry there is no data loss. Looking to make those errors less scary.</li><li><strong>2011-01-04 20:13:31</strong> - All repos are back online. We will be investigating root cause and solutions to prevent this from happening again. Thanks for your patience, everyone.</li></ul>",
+                "incident_id": "57mzzvxpq0rp",
+                "created_at": "2018-12-05T11:26:22.074Z",
+                "updated_at": "2018-12-05T11:26:22.074Z",
+                "display_at": "2011-01-04T16:10:00.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

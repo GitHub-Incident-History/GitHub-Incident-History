@@ -1,0 +1,103 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "bzj1hc2cnfkc",
+        "name": "Incident on 2018-07-16 17:32:53 UTC",
+        "status": "resolved",
+        "created_at": "2018-07-16T17:32:53.000Z",
+        "updated_at": "2018-12-05T11:45:18.267Z",
+        "monitoring_at": null,
+        "resolved_at": "2018-07-16T17:32:53.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/a5999bbe4",
+        "started_at": "2018-07-16T17:32:53.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "zjkf0fwrp09j",
+                "status": "resolved",
+                "body": "<ul><li><strong>2018-07-16 17:32:53</strong> - We are investigating reports of elevated error rates.</li><li><strong>2018-07-16 17:34:27</strong> - We are investigating reports of service unavailability.</li><li><strong>2018-07-16 18:04:38</strong> - We've discovered the issue causing connectivity failures and are remediating.</li><li><strong>2018-07-16 18:26:48</strong> - We're monitoring the site as systems recover. Some delays are expected as we process backlogged data.</li><li><strong>2018-07-16 18:37:26</strong> - We're continuing to monitor and work on further remediation efforts as the site recovers.</li><li><strong>2018-07-16 18:54:21</strong> - The site is stable. We are continuing to monitor and work through follow-up remediation efforts.</li><li><strong>2018-07-16 21:14:20</strong> - All systems are stable. We are continuing recovery efforts.</li><li><strong>2018-07-16 23:10:17</strong> - All systems operational. Some users may not see audit logs, Pages builds, or webhooks from the affected time window. We are rebuilding search indices. We will reach out directly to users who saw additional impact.</li></ul>",
+                "incident_id": "bzj1hc2cnfkc",
+                "created_at": "2018-12-05T11:45:18.256Z",
+                "updated_at": "2018-12-05T11:45:18.256Z",
+                "display_at": "2018-07-16T17:32:53.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "vg70hn9s2tyj",
+                        "name": "GitHub Pages",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "vg70hn9s2tyj",
+                "name": "Pages",
+                "status": "operational",
+                "created_at": "2017-01-31T20:04:33.923Z",
+                "updated_at": "2022-08-10T01:31:09.465Z",
+                "position": 9,
+                "description": "Frontend application and API servers for Pages builds",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

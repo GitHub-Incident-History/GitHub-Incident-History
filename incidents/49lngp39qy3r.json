@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "49lngp39qy3r",
+        "name": "Incident on 2011-01-03 22:42:00 UTC",
+        "status": "resolved",
+        "created_at": "2011-01-03T22:42:00.000Z",
+        "updated_at": "2018-12-05T11:26:19.143Z",
+        "monitoring_at": null,
+        "resolved_at": "2011-01-03T22:42:00.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/543946909",
+        "started_at": "2011-01-03T22:42:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "hz9bhnd017yh",
+                "status": "resolved",
+                "body": "<ul><li><strong>2011-01-03 22:42:00</strong> - We seem to be having some intermittent SSH problems.  Working on it.</li><li><strong>2011-01-03 23:00:00</strong> - SSH access is restored.  </li></ul>",
+                "incident_id": "49lngp39qy3r",
+                "created_at": "2018-12-05T11:26:19.127Z",
+                "updated_at": "2018-12-05T11:26:19.127Z",
+                "display_at": "2011-01-03T22:42:00.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

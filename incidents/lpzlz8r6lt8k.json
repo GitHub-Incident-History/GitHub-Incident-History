@@ -1,0 +1,45 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "lpzlz8r6lt8k",
+        "name": "Incident on 2014-09-06 15:12:21 UTC",
+        "status": "resolved",
+        "created_at": "2014-09-06T15:12:21.000Z",
+        "updated_at": "2018-12-05T11:39:47.432Z",
+        "monitoring_at": null,
+        "resolved_at": "2014-09-06T15:12:21.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/9839ec744",
+        "started_at": "2014-09-06T15:12:21.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "29ny7hyvkjt9",
+                "status": "resolved",
+                "body": "<ul><li><strong>2014-09-06 15:12:21</strong> - We're currently investigating problems processing email replies to notifications.</li><li><strong>2014-09-06 15:40:05</strong> - Email replies are now being processed. Messages from the past 24 hours have been recieved, but not posted as comments, and will be backfilled soon.</li></ul>",
+                "incident_id": "lpzlz8r6lt8k",
+                "created_at": "2018-12-05T11:39:47.421Z",
+                "updated_at": "2018-12-05T11:39:47.421Z",
+                "display_at": "2014-09-06T15:12:21.000Z",
+                "affected_components": [
+                    {
+                        "code": "5bfcr2x9x8kc",
+                        "name": "Notifications",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

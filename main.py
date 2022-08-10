@@ -1,5 +1,6 @@
 import requests
 import json
+from tqdm import tqdm
 
 
 def download_all_incident_codes():
@@ -35,14 +36,24 @@ def read_incident_codes():
     return incident_codes
 
 def get_incident(id: str):
-        # https://www.githubstatus.com/api/v2/incidents/fjrlf0wn8vmq.json
-    response = requests.get()
-    pass
+    url = f'https://www.githubstatus.com/api/v2/incidents/{id}.json'
+        # 
+    response = requests.get(url)
+    return response.json()
+
+def download_all_incident_records():
+    incident_codes = read_incident_codes()
+    for incident_code in tqdm(incident_codes):
+        # print(incident_code)
+        incident = get_incident(incident_code)
+        with open(f'incidents/{incident_code}.json', 'w') as file:
+            json.dump(incident, file, indent=4)
 
 def main():
-    incident_codes = read_incident_codes()
-    print(len(incident_codes))
+    # incident_codes = read_incident_codes()
+    # print(len(incident_codes))
     # download_all_incident_codes()
+    download_all_incident_records()
 
 
 if __name__ == '__main__':

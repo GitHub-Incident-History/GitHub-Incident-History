@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "slf8t1bzz5lp",
+        "name": "Incident on 2016-01-29 07:23:49 UTC",
+        "status": "resolved",
+        "created_at": "2016-01-29T07:23:49.000Z",
+        "updated_at": "2018-12-05T11:41:42.916Z",
+        "monitoring_at": null,
+        "resolved_at": "2016-01-29T07:23:49.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/0fc21e15d",
+        "started_at": "2016-01-29T07:23:49.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "7wm9nhts6k55",
+                "status": "resolved",
+                "body": "<ul><li><strong>2016-01-29 07:23:49</strong> - We're performing a planned maintenance procedure and do not anticipate any user impact.</li><li><strong>2016-01-29 07:51:03</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "slf8t1bzz5lp",
+                "created_at": "2018-12-05T11:41:42.905Z",
+                "updated_at": "2018-12-05T11:41:42.905Z",
+                "display_at": "2016-01-29T07:23:49.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

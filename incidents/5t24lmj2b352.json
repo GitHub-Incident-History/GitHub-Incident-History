@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "5t24lmj2b352",
+        "name": "Incident on 2010-07-08 21:17:00 UTC",
+        "status": "resolved",
+        "created_at": "2010-07-08T21:17:00.000Z",
+        "updated_at": "2018-12-05T11:25:26.521Z",
+        "monitoring_at": null,
+        "resolved_at": "2010-07-08T21:17:00.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/d42c2c596",
+        "started_at": "2010-07-08T21:17:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "9f51rf4s7qv0",
+                "status": "resolved",
+                "body": "<ul><li><strong>2010-07-08 21:17:00</strong> - Something is causing resource starvation on our frontends. We are looking into it.</li><li><strong>2010-07-08 21:20:00</strong> - Load has returned to normal. Site should load normally now.</li></ul>",
+                "incident_id": "5t24lmj2b352",
+                "created_at": "2018-12-05T11:25:26.509Z",
+                "updated_at": "2018-12-05T11:25:26.509Z",
+                "display_at": "2010-07-08T21:17:00.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "x62d542w25hc",
+        "name": "Incident on 2011-05-15 05:00:00 UTC",
+        "status": "resolved",
+        "created_at": "2011-05-15T05:00:00.000Z",
+        "updated_at": "2018-12-05T11:26:53.176Z",
+        "monitoring_at": null,
+        "resolved_at": "2011-05-15T05:00:00.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/4c89da9d8",
+        "started_at": "2011-05-15T05:00:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "13rtn5ff2y49",
+                "status": "resolved",
+                "body": "<ul><li><strong>2011-05-15 05:00:00</strong> - Scheduled maintenance is starting. Should not last more than 15 minutes.</li><li><strong>2011-05-15 05:29:00</strong> - Maintenance was successful. Thanks for your patience.</li></ul>",
+                "incident_id": "x62d542w25hc",
+                "created_at": "2018-12-05T11:26:53.165Z",
+                "updated_at": "2018-12-05T11:26:53.165Z",
+                "display_at": "2011-05-15T05:00:00.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

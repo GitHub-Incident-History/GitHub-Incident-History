@@ -1,0 +1,113 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "ljygds069np9",
+        "name": "Incident on 2020-05-05 00:45 UTC",
+        "status": "resolved",
+        "created_at": "2020-05-05T00:45:32.568Z",
+        "updated_at": "2020-05-05T02:51:58.353Z",
+        "monitoring_at": null,
+        "resolved_at": "2020-05-05T02:51:58.335Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/81k6p96sxnyw",
+        "started_at": "2020-05-05T00:45:32.560Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "3lphrb0q6pm2",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "ljygds069np9",
+                "created_at": "2020-05-05T02:51:58.335Z",
+                "updated_at": "2020-05-05T02:51:58.335Z",
+                "display_at": "2020-05-05T02:51:58.335Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "xcnwjgvj6d9x",
+                "status": "investigating",
+                "body": "We have rolled out a fix and are monitoring recovery. We are processing the backlog of jobs.",
+                "incident_id": "ljygds069np9",
+                "created_at": "2020-05-05T02:10:16.438Z",
+                "updated_at": "2020-05-05T02:10:16.438Z",
+                "display_at": "2020-05-05T02:10:16.438Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "1d670mq1v9q2",
+                "status": "investigating",
+                "body": "We are continuing to work on a fix for the elevated error rates.",
+                "incident_id": "ljygds069np9",
+                "created_at": "2020-05-05T01:34:20.892Z",
+                "updated_at": "2020-05-05T01:34:20.892Z",
+                "display_at": "2020-05-05T01:34:20.892Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "7z51wzqylsz5",
+                "status": "investigating",
+                "body": "We have identified the issue causing elevated error rates and are working on a fix.",
+                "incident_id": "ljygds069np9",
+                "created_at": "2020-05-05T01:09:04.179Z",
+                "updated_at": "2020-05-05T01:09:04.179Z",
+                "display_at": "2020-05-05T01:09:04.179Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "g49qkt6yqykm",
+                "status": "investigating",
+                "body": "We are investigating elevated errors with GitHub.",
+                "incident_id": "ljygds069np9",
+                "created_at": "2020-05-05T00:45:32.608Z",
+                "updated_at": "2020-05-05T00:45:32.608Z",
+                "display_at": "2020-05-05T00:45:32.608Z",
+                "affected_components": [
+                    {
+                        "code": "0l2p9nhqnxpd",
+                        "name": "Visit www.githubstatus.com for more information",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "0l2p9nhqnxpd",
+                "name": "Visit www.githubstatus.com for more information",
+                "status": "operational",
+                "created_at": "2018-12-05T19:39:40.838Z",
+                "updated_at": "2020-04-02T21:56:21.954Z",
+                "position": 4,
+                "description": null,
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

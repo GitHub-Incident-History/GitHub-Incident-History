@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "w6sks0r3j8zp",
+        "name": "Incident on 2012-02-04 21:31:00 UTC",
+        "status": "resolved",
+        "created_at": "2012-02-04T21:31:00.000Z",
+        "updated_at": "2018-12-05T11:27:59.578Z",
+        "monitoring_at": null,
+        "resolved_at": "2012-02-04T21:31:00.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/ca00d202e",
+        "started_at": "2012-02-04T21:31:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "tssmtmdv9v5p",
+                "status": "resolved",
+                "body": "<ul><li><strong>2012-02-04 21:31:00</strong> - We're investigating connectivity issues.</li><li><strong>2012-02-04 22:04:00</strong> - HTTP and SSH services are experiencing intermittent slowness and timeouts. We are tracking down the issue causing connectivity problems at the load balancer.</li><li><strong>2012-02-04 22:46:00</strong> - We've fixed the underlying routing issue. Services are returning to normal.</li></ul>",
+                "incident_id": "w6sks0r3j8zp",
+                "created_at": "2018-12-05T11:27:59.566Z",
+                "updated_at": "2018-12-05T11:27:59.566Z",
+                "display_at": "2012-02-04T21:31:00.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

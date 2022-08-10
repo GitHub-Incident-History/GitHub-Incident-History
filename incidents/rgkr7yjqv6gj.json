@@ -1,0 +1,74 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "rgkr7yjqv6gj",
+        "name": "Incident with GitHub Actions",
+        "status": "resolved",
+        "created_at": "2021-09-28T02:20:51.775Z",
+        "updated_at": "2021-09-28T03:05:51.164Z",
+        "monitoring_at": null,
+        "resolved_at": "2021-09-28T03:05:51.147Z",
+        "impact": "minor",
+        "shortlink": "https://stspg.io/j4pgc6pkwgnc",
+        "started_at": "2021-09-28T02:20:51.766Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "9y3r8ng5876m",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "rgkr7yjqv6gj",
+                "created_at": "2021-09-28T03:05:51.147Z",
+                "updated_at": "2021-09-28T03:05:51.147Z",
+                "display_at": "2021-09-28T03:05:51.147Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "8m4bgxn2f8wh",
+                "status": "investigating",
+                "body": "We are investigating reports of degraded performance for GitHub Actions.",
+                "incident_id": "rgkr7yjqv6gj",
+                "created_at": "2021-09-28T02:20:51.824Z",
+                "updated_at": "2021-09-28T02:20:51.824Z",
+                "display_at": "2021-09-28T02:20:51.824Z",
+                "affected_components": [
+                    {
+                        "code": "br0l2tvcx85d",
+                        "name": "GitHub Actions",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "br0l2tvcx85d",
+                "name": "Actions",
+                "status": "operational",
+                "created_at": "2019-11-13T18:02:19.432Z",
+                "updated_at": "2022-08-10T01:31:05.864Z",
+                "position": 7,
+                "description": "Workflows, Compute and Orchestration for GitHub Actions",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "jpzyp9c6pgxv",
+        "name": "Incident on 2012-11-30 17:54:27 UTC",
+        "status": "resolved",
+        "created_at": "2012-11-30T17:54:27.000Z",
+        "updated_at": "2018-12-05T11:31:27.850Z",
+        "monitoring_at": null,
+        "resolved_at": "2012-11-30T17:54:27.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/6ecc5e641",
+        "started_at": "2012-11-30T17:54:27.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "q4g8h2qpmytm",
+                "status": "resolved",
+                "body": "<ul><li><strong>2012-11-30 17:54:27</strong> - We are investigating an offline file server.</li><li><strong>2012-11-30 18:30:57</strong> - We are working to bring the file server back online. Users whose repositories reside on this file server will have trouble accessing them during this time.</li><li><strong>2012-11-30 19:19:05</strong> - We are continuing our work on resolving the network and file server issues. We'll provide more information once it becomes available.</li><li><strong>2012-11-30 19:58:11</strong> - We've recovered from a network partition and are continuing to work towards restoring access to all repositories.</li><li><strong>2012-11-30 21:38:54</strong> - One fileserver pair remains offline. We're performing manual verification checks on this server to ensure data is consistent, and are working to restore service to the affected repositories as soon as possible.</li><li><strong>2012-11-30 23:31:15</strong> - All repositories are now available. Our sincere apologies for a rough day.</li></ul>",
+                "incident_id": "jpzyp9c6pgxv",
+                "created_at": "2018-12-05T11:31:27.833Z",
+                "updated_at": "2018-12-05T11:31:27.833Z",
+                "display_at": "2012-11-30T17:54:27.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

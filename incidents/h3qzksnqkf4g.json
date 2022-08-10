@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "h3qzksnqkf4g",
+        "name": "Incident on 2017-10-20 23:20:02 UTC",
+        "status": "resolved",
+        "created_at": "2017-10-20T23:20:02.000Z",
+        "updated_at": "2018-12-05T11:44:36.019Z",
+        "monitoring_at": null,
+        "resolved_at": "2017-10-20T23:20:02.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/0c9848c20",
+        "started_at": "2017-10-20T23:20:02.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "62gjzdz75gcx",
+                "status": "resolved",
+                "body": "<ul><li><strong>2017-10-20 23:20:02</strong> - We are investigating reports of elevated error rates.</li><li><strong>2017-10-20 23:22:49</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "h3qzksnqkf4g",
+                "created_at": "2018-12-05T11:44:35.997Z",
+                "updated_at": "2018-12-05T11:44:35.997Z",
+                "display_at": "2017-10-20T23:20:02.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

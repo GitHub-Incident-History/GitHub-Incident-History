@@ -1,0 +1,45 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "rb719z1knkm7",
+        "name": "Incident on 2016-09-02 16:09:40 UTC",
+        "status": "resolved",
+        "created_at": "2016-09-02T16:09:40.000Z",
+        "updated_at": "2018-12-05T11:43:02.210Z",
+        "monitoring_at": null,
+        "resolved_at": "2016-09-02T16:09:40.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/ca89cb33a",
+        "started_at": "2016-09-02T16:09:40.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "hkrdvt2dxctv",
+                "status": "resolved",
+                "body": "<ul><li><strong>2016-09-02 16:09:40</strong> - We're monitoring a service disruption with our email delivery provider causing notification delays for some users.</li><li><strong>2016-09-02 20:31:30</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "rb719z1knkm7",
+                "created_at": "2018-12-05T11:43:02.198Z",
+                "updated_at": "2018-12-05T11:43:02.198Z",
+                "display_at": "2016-09-02T16:09:40.000Z",
+                "affected_components": [
+                    {
+                        "code": "5bfcr2x9x8kc",
+                        "name": "Notifications",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

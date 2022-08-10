@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "6jzdzcz3118s",
+        "name": "Incident on 2015-08-25 09:39:12 UTC",
+        "status": "resolved",
+        "created_at": "2015-08-25T09:39:12.000Z",
+        "updated_at": "2018-12-05T11:41:02.601Z",
+        "monitoring_at": null,
+        "resolved_at": "2015-08-25T09:39:12.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/26848aceb",
+        "started_at": "2015-08-25T09:39:12.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "0y1kr3drn5nb",
+                "status": "resolved",
+                "body": "<ul><li><strong>2015-08-25 09:39:12</strong> - We are investigating reports of connectivity problems.</li><li><strong>2015-08-25 10:07:20</strong> - We're continuing to diagnose reports of connectivity problems.</li><li><strong>2015-08-25 10:38:32</strong> - The connectivity problems have been identified as a DDoS attack. We're working to mitigate now.</li><li><strong>2015-08-25 11:06:09</strong> - We are continuing to work to mitigate an ongoing DDoS attack.</li><li><strong>2015-08-25 11:27:21</strong> - We are restoring service as we mitigate a DDoS attack.</li><li><strong>2015-08-25 12:08:21</strong> - We are restoring service as we mitigate a DDoS attack. Response times may be slower while this work continues.</li><li><strong>2015-08-25 12:52:30</strong> - Service has been restored. We continue to monitor the situation closely.</li></ul>",
+                "incident_id": "6jzdzcz3118s",
+                "created_at": "2018-12-05T11:41:02.586Z",
+                "updated_at": "2018-12-05T11:41:02.586Z",
+                "display_at": "2015-08-25T09:39:12.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

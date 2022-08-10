@@ -1,0 +1,103 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "6swlsy1h3wy9",
+        "name": "Incident on 2018-10-21 23:09:19 UTC",
+        "status": "resolved",
+        "created_at": "2018-10-21T23:09:19.000Z",
+        "updated_at": "2018-12-05T11:45:52.286Z",
+        "monitoring_at": null,
+        "resolved_at": "2018-10-21T23:09:19.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/ba3a7b54f",
+        "started_at": "2018-10-21T23:09:19.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "gt55byy9txp7",
+                "status": "resolved",
+                "body": "<ul><li><strong>2018-10-21 23:09:19</strong> - We are investigating reports of elevated error rates.</li><li><strong>2018-10-21 23:13:31</strong> - We are investigating reports of service unavailability.</li><li><strong>2018-10-21 23:43:55</strong> - We're investigating problems accessing GitHub.com.</li><li><strong>2018-10-22 00:05:37</strong> - We're failing over a data storage system in order to restore access to GitHub.com.</li><li><strong>2018-10-22 00:23:54</strong> - We're continuing to work on migrating a data storage system in order to restore access to GitHub.com.</li><li><strong>2018-10-22 00:43:12</strong> - We continue to work on migrating a data storage system in order to restore access to GitHub.com.</li><li><strong>2018-10-22 01:02:49</strong> - We continue to migrate a data storage system in order to restore full access to GitHub.com.</li><li><strong>2018-10-22 01:22:22</strong> - We continue to work to migrate a data storage system in order to restore access to GitHub.com.</li><li><strong>2018-10-22 01:41:19</strong> - We are continuing to work to migrate a data storage system in order to restore access to GitHub.com.</li><li><strong>2018-10-22 02:01:43</strong> - We continue work to repair a data storage system for GitHub.com. You may see inconsistent results during this process.</li><li><strong>2018-10-22 02:23:48</strong> - We are continuing to repair a data storage system for GitHub.com. You may see inconsistent results during this process.</li><li><strong>2018-10-22 02:42:28</strong> - We continue to repair a data storage system for GitHub.com. You may see inconsistent results during this process.</li><li><strong>2018-10-22 03:00:09</strong> - We are continuing to repair a data storage system for GitHub.com. You may see inconsistent results during this process.</li><li><strong>2018-10-22 03:28:17</strong> - We continue working to repair a data storage system for GitHub.com. You may see inconsistent results during this process.</li><li><strong>2018-10-22 04:12:55</strong> - We are continuing work to repair a data storage system for GitHub.com. You may see inconsistent results during this process.</li><li><strong>2018-10-22 05:05:37</strong> - We continue working to repair a data storage system for GitHub.com. You may see inconsistent results during this process.</li><li><strong>2018-10-22 06:18:18</strong> - We continue work to repair a data storage system for GitHub.com. You may see inconsistent results during this process.</li><li><strong>2018-10-22 06:51:50</strong> - We are currently in the later stages of a restore operation, with the aim of serving fully consistent data within the next 2 hours.</li><li><strong>2018-10-22 07:35:38</strong> - Our restore operations are proceeding as expected, on track for serving fully consistent data within the next 1.5 hours.</li><li><strong>2018-10-22 08:19:00</strong> - Our restore operations are still on track to serve consistent data within the hour. We've posted an update at https://blog.github.com/2018-10-21-october21-incident-report/.</li><li><strong>2018-10-22 09:47:03</strong> - We continue to monitor restores which are taking longer than anticipated. We estimate they will be caught up in an hour and a half.</li><li><strong>2018-10-22 11:56:52</strong> - The majority of restore processes have completed. We anticipate all data stores will be fully consistent within the next hour.</li><li><strong>2018-10-22 13:18:59</strong> - We are validating the consistency of information across all data stores. Webhooks and Pages builds remain paused.</li><li><strong>2018-10-22 15:09:47</strong> - Background jobs remain paused as we near completion of validation of data consistency.</li><li><strong>2018-10-22 16:24:01</strong> - We've completed validation of data consistency and have enabled some background jobs. We're continuing to monitor as the system recovers and expect to resume delivering webhooks at 16:45UTC.</li><li><strong>2018-10-22 16:45:19</strong> - We have resumed delivery of webhooks and will continue to monitor as we process a delayed backlog of events.</li><li><strong>2018-10-22 16:51:27</strong> - We have resumed Pages builds and will continue to monitor as we process a delayed backlog of events.</li><li><strong>2018-10-22 17:32:55</strong> - We have temporarily paused delivery of webhooks while we address an issue. We are working to resume delivery as soon as possible.</li><li><strong>2018-10-22 18:09:34</strong> - Webhook delivery remains paused while we work through an issue. We are currently deploying a fix, and expect to resume delivery soon.</li><li><strong>2018-10-22 18:26:41</strong> - We have resumed webhook delivery and will continue to monitor as we process the backlog of events.</li><li><strong>2018-10-22 18:40:20</strong> - We are working through the backlogs of webhook deliveries and Pages builds. We continue to monitor as the site recovers.</li><li><strong>2018-10-22 19:32:50</strong> - We continue to work through the backlogs for Pages builds and webhook deliveries, and are monitoring as the site recovers.</li><li><strong>2018-10-22 20:03:52</strong> - We continue working through the backlogs for Pages builds and webhook deliveries, and we are monitoring as the site recovers.</li><li><strong>2018-10-22 20:37:25</strong> - We continue to work through the backlogs for Pages builds and webhook deliveries. We are monitoring as the site recovers.</li><li><strong>2018-10-22 21:11:49</strong> - We continue working through the backlogs for Pages builds and webhook deliveries. We are monitoring as the site recovers.</li><li><strong>2018-10-22 21:46:24</strong> - We continue working through the backlogs for Pages builds and webhook deliveries, and are monitoring as the site recovers.</li><li><strong>2018-10-22 22:23:07</strong> - Webhook deliveries have caught up, and we continue working through the backlogs for Pages builds as the site recovers.</li><li><strong>2018-10-22 23:03:57</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "6swlsy1h3wy9",
+                "created_at": "2018-12-05T11:45:52.273Z",
+                "updated_at": "2018-12-05T11:45:52.273Z",
+                "display_at": "2018-10-21T23:09:19.000Z",
+                "affected_components": [
+                    {
+                        "code": "brv1bkgrwx7q",
+                        "name": "API Requests",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "vg70hn9s2tyj",
+                        "name": "GitHub Pages",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "brv1bkgrwx7q",
+                "name": "API Requests",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.621Z",
+                "updated_at": "2022-08-10T01:31:06.821Z",
+                "position": 2,
+                "description": "Requests for GitHub APIs",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "vg70hn9s2tyj",
+                "name": "Pages",
+                "status": "operational",
+                "created_at": "2017-01-31T20:04:33.923Z",
+                "updated_at": "2022-08-10T01:31:09.465Z",
+                "position": 9,
+                "description": "Frontend application and API servers for Pages builds",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

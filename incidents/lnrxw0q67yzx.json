@@ -1,0 +1,82 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "lnrxw0q67yzx",
+        "name": "Incident on 2016-01-28 00:32:02 UTC",
+        "status": "resolved",
+        "created_at": "2016-01-28T00:32:02.000Z",
+        "updated_at": "2018-12-05T11:41:38.402Z",
+        "monitoring_at": null,
+        "resolved_at": "2016-01-28T00:32:02.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/b739246ba",
+        "started_at": "2016-01-28T00:32:02.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "k5b2frrg3wyg",
+                "status": "resolved",
+                "body": "<ul><li><strong>2016-01-28 00:32:02</strong> - We're investigating connectivity problems on github.com.</li><li><strong>2016-01-28 00:46:11</strong> - We're investigating a significant network disruption effecting all github.com services.</li><li><strong>2016-01-28 00:47:07</strong> - We're investigating a significant network disruption affecting all github.com services.</li><li><strong>2016-01-28 01:02:20</strong> - We're continuing to investigate a significant network disruption affecting all github.com services.</li><li><strong>2016-01-28 01:36:38</strong> - We're working to address a widespread issue affecting all github.com services.</li><li><strong>2016-01-28 01:50:09</strong> - We're working to address a widespread issue affecting all github.com services.</li><li><strong>2016-01-28 02:04:55</strong> - We're working to address a widespread issue affecting all github.com services.</li><li><strong>2016-01-28 02:19:56</strong> - We're continuing to address a widespread issue affecting all github.com services.</li><li><strong>2016-01-28 02:29:24</strong> - The site is recovering. We're continuing to monitor the situation.</li><li><strong>2016-01-28 03:16:06</strong> - The site is recovering and services are continuing to come back online. We're continuing to monitor the situation.</li><li><strong>2016-01-28 04:23:50</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "lnrxw0q67yzx",
+                "created_at": "2018-12-05T11:41:38.391Z",
+                "updated_at": "2018-12-05T11:41:38.391Z",
+                "display_at": "2016-01-28T00:32:02.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "r5pfwv3jwl4j",
+        "name": "Incident on 2013-07-12 21:12:33 UTC",
+        "status": "resolved",
+        "created_at": "2013-07-12T21:12:33.000Z",
+        "updated_at": "2018-12-05T11:35:48.342Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-07-12T21:12:33.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/b56a88f99",
+        "started_at": "2013-07-12T21:12:33.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "0jcyrs772y9c",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-07-12 21:12:33</strong> - We are currently investigating intermittent errors loading Gist.</li><li><strong>2013-07-13 00:01:09</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "r5pfwv3jwl4j",
+                "created_at": "2018-12-05T11:35:48.329Z",
+                "updated_at": "2018-12-05T11:35:48.329Z",
+                "display_at": "2013-07-12T21:12:33.000Z",
+                "affected_components": [
+                    {
+                        "code": "04c28ykz2c5m",
+                        "name": "Gists",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

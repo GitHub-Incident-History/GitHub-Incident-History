@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "3k1rl4l8gz3k",
+        "name": "Incident on 2012-10-17 12:50:19 UTC",
+        "status": "resolved",
+        "created_at": "2012-10-17T12:50:19.000Z",
+        "updated_at": "2018-12-05T11:30:34.823Z",
+        "monitoring_at": null,
+        "resolved_at": "2012-10-17T12:50:19.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/43a390eec",
+        "started_at": "2012-10-17T12:50:19.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "pkk4yw197g5y",
+                "status": "resolved",
+                "body": "<ul><li><strong>2012-10-17 12:50:19</strong> - We're looking into errors with our search service. Updates as we have them.</li><li><strong>2012-10-17 21:14:50</strong> - All systems go.</li></ul>",
+                "incident_id": "3k1rl4l8gz3k",
+                "created_at": "2018-12-05T11:30:34.814Z",
+                "updated_at": "2018-12-05T11:30:34.814Z",
+                "display_at": "2012-10-17T12:50:19.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

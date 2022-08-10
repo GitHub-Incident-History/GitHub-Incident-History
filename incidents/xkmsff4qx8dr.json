@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "xkmsff4qx8dr",
+        "name": "Incident on 2010-02-26 21:23:00 UTC",
+        "status": "resolved",
+        "created_at": "2010-02-26T21:23:00.000Z",
+        "updated_at": "2018-12-05T11:24:20.169Z",
+        "monitoring_at": null,
+        "resolved_at": "2010-02-26T21:23:00.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/0e3698f2a",
+        "started_at": "2010-02-26T21:23:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "nxtvg6lxqzy1",
+                "status": "resolved",
+                "body": "<ul><li><strong>2010-02-26 21:23:00</strong> - One file partition appears to be full, some users may receive \"No space left on device\" errors when pushing.  We're making space now.</li><li><strong>2010-02-26 21:41:00</strong> - Space has been freed on the full partition.  We're investigating why the OS was not reporting the part as full.</li></ul>",
+                "incident_id": "xkmsff4qx8dr",
+                "created_at": "2018-12-05T11:24:20.156Z",
+                "updated_at": "2018-12-05T11:24:20.156Z",
+                "display_at": "2010-02-26T21:23:00.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

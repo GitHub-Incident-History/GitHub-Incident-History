@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "rm1gdtzy0kp9",
+        "name": "Incident on 2010-06-11 16:43:00 UTC",
+        "status": "resolved",
+        "created_at": "2010-06-11T16:43:00.000Z",
+        "updated_at": "2018-12-05T11:25:15.142Z",
+        "monitoring_at": null,
+        "resolved_at": "2010-06-11T16:43:00.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/d2d96106a",
+        "started_at": "2010-06-11T16:43:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "sh7n6wf91wx7",
+                "status": "resolved",
+                "body": "<ul><li><strong>2010-06-11 16:43:00</strong> - Intermittent memcached errors, we're working on it.</li><li><strong>2010-06-11 18:22:00</strong> - There were some issues with the zip/tarball downloads, things should be working again.</li></ul>",
+                "incident_id": "rm1gdtzy0kp9",
+                "created_at": "2018-12-05T11:25:15.129Z",
+                "updated_at": "2018-12-05T11:25:15.129Z",
+                "display_at": "2010-06-11T16:43:00.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

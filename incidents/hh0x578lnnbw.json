@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "hh0x578lnnbw",
+        "name": "Incident on 2013-07-02 12:41:54 UTC",
+        "status": "resolved",
+        "created_at": "2013-07-02T12:41:54.000Z",
+        "updated_at": "2018-12-05T11:35:35.656Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-07-02T12:41:54.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/1f3845f40",
+        "started_at": "2013-07-02T12:41:54.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "0v8cm19bxv75",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-07-02 12:41:54</strong> - investigating an increased number of unicorns</li><li><strong>2013-07-02 13:30:38</strong> - We've identified the source of angry unicorns being related to search, and are working to resolve that now.</li><li><strong>2013-07-02 13:56:58</strong> - We have isolated the cause of unicorns and are working to repair</li><li><strong>2013-07-02 14:43:52</strong> - We've resolved a connection exhaustion condition in our proxy infrastructure cased by the earlier search outage. Service should be back to normal.</li></ul>",
+                "incident_id": "hh0x578lnnbw",
+                "created_at": "2018-12-05T11:35:35.646Z",
+                "updated_at": "2018-12-05T11:35:35.646Z",
+                "display_at": "2013-07-02T12:41:54.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

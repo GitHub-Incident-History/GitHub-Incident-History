@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "vnj179rpwqr8",
+        "name": "Incident on 2014-04-22 17:52:01 UTC",
+        "status": "resolved",
+        "created_at": "2014-04-22T17:52:01.000Z",
+        "updated_at": "2018-12-05T11:38:54.477Z",
+        "monitoring_at": null,
+        "resolved_at": "2014-04-22T17:52:01.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/0337f6dc2",
+        "started_at": "2014-04-22T17:52:01.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "wq0zvhvk3p1w",
+                "status": "resolved",
+                "body": "<ul><li><strong>2014-04-22 17:52:01</strong> - We are investigating reports of problems downloading tarballs and zips of repositories on GitHub.com.</li><li><strong>2014-04-22 17:54:19</strong> - We have confirmed that downloads of tarballs and zip archives of repositories on GitHub.com are unavailable and are working to fix these downloads.</li><li><strong>2014-04-22 18:03:15</strong> - We have confirmed that the problem is affecting raw repository content on GitHub.com and are working to restore service.</li><li><strong>2014-04-22 18:18:43</strong> - We are still experiencing intermittent errors accessing raw repository content on GitHub.com and are still working to resolve the problem.</li><li><strong>2014-04-22 18:32:11</strong> - Access to raw content and tarball/zip archive downloads of repositories have been restored.</li></ul>",
+                "incident_id": "vnj179rpwqr8",
+                "created_at": "2018-12-05T11:38:54.464Z",
+                "updated_at": "2018-12-05T11:38:54.464Z",
+                "display_at": "2014-04-22T17:52:01.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

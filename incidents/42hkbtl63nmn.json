@@ -1,0 +1,178 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "42hkbtl63nmn",
+        "name": "Incident on 2019-11-05 13:42 UTC",
+        "status": "resolved",
+        "created_at": "2019-11-05T13:42:11.317Z",
+        "updated_at": "2019-11-05T20:44:27.245Z",
+        "monitoring_at": null,
+        "resolved_at": "2019-11-05T20:44:27.225Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/6259b4fc1",
+        "started_at": "2019-11-05T13:42:11.309Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "4mbw9qk33psy",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "42hkbtl63nmn",
+                "created_at": "2019-11-05T20:44:27.225Z",
+                "updated_at": "2019-11-05T20:44:27.225Z",
+                "display_at": "2019-11-05T20:44:27.225Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "mp8qyz9g35qm",
+                "status": "investigating",
+                "body": "We are continuing to monitor as the backlog clears. Users may see delays in search results.",
+                "incident_id": "42hkbtl63nmn",
+                "created_at": "2019-11-05T20:05:37.377Z",
+                "updated_at": "2019-11-05T20:05:37.377Z",
+                "display_at": "2019-11-05T20:05:37.377Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "lzmcrtr2t35n",
+                "status": "investigating",
+                "body": "We are back to working through our backlog. Users should see webhook delivery delays as we recover.",
+                "incident_id": "42hkbtl63nmn",
+                "created_at": "2019-11-05T18:26:35.481Z",
+                "updated_at": "2019-11-05T18:26:35.481Z",
+                "display_at": "2019-11-05T18:26:35.481Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "lj10z6mzt46s",
+                "status": "investigating",
+                "body": "Despite our mitigation efforts, we are now experiencing a service interruption.",
+                "incident_id": "42hkbtl63nmn",
+                "created_at": "2019-11-05T18:09:09.672Z",
+                "updated_at": "2019-11-05T18:09:09.672Z",
+                "display_at": "2019-11-05T18:09:09.672Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "rbjthcxnt3xs",
+                "status": "investigating",
+                "body": "Engineers have identified contributing factors to the backlog and have begun their mitigation work.",
+                "incident_id": "42hkbtl63nmn",
+                "created_at": "2019-11-05T17:38:52.041Z",
+                "updated_at": "2019-11-05T17:38:52.041Z",
+                "display_at": "2019-11-05T17:38:52.041Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "gz7vtg3jkhbl",
+                "status": "investigating",
+                "body": "We are continuing to investigate and closely monitor queue sizes.",
+                "incident_id": "42hkbtl63nmn",
+                "created_at": "2019-11-05T16:36:53.105Z",
+                "updated_at": "2019-11-05T16:36:53.105Z",
+                "display_at": "2019-11-05T16:36:53.105Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "j37hnvvw0kft",
+                "status": "investigating",
+                "body": "We are continuing to investigate higher than normal queue backlogs.",
+                "incident_id": "42hkbtl63nmn",
+                "created_at": "2019-11-05T15:31:00.370Z",
+                "updated_at": "2019-11-05T15:31:00.370Z",
+                "display_at": "2019-11-05T15:31:00.370Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "0jd3mk85gswv",
+                "status": "investigating",
+                "body": "We are continuing to monitor higher than normal queue backlogs.",
+                "incident_id": "42hkbtl63nmn",
+                "created_at": "2019-11-05T14:44:46.676Z",
+                "updated_at": "2019-11-05T14:44:46.676Z",
+                "display_at": "2019-11-05T14:44:46.676Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "x71p7xcmtnrv",
+                "status": "investigating",
+                "body": "Queue backlogs are currently also causing delays in merging of PRs. We continue to investigate.",
+                "incident_id": "42hkbtl63nmn",
+                "created_at": "2019-11-05T13:48:27.961Z",
+                "updated_at": "2019-11-05T13:48:27.961Z",
+                "display_at": "2019-11-05T13:48:27.961Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "442flg8d1bgk",
+                "status": "investigating",
+                "body": "Currently investigating increase in queue backlogs affecting Pages builds and some webhooks deliveries.",
+                "incident_id": "42hkbtl63nmn",
+                "created_at": "2019-11-05T13:42:11.357Z",
+                "updated_at": "2019-11-05T13:42:11.357Z",
+                "display_at": "2019-11-05T13:42:11.357Z",
+                "affected_components": [
+                    {
+                        "code": "0l2p9nhqnxpd",
+                        "name": "Visit www.githubstatus.com for more information",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "0l2p9nhqnxpd",
+                "name": "Visit www.githubstatus.com for more information",
+                "status": "operational",
+                "created_at": "2018-12-05T19:39:40.838Z",
+                "updated_at": "2020-04-02T21:56:21.954Z",
+                "position": 4,
+                "description": null,
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

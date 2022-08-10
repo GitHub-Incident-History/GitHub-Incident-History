@@ -1,0 +1,88 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "b24kmzbfsv81",
+        "name": "Incident on 2014-01-08 21:33:33 UTC",
+        "status": "resolved",
+        "created_at": "2014-01-08T21:33:33.000Z",
+        "updated_at": "2018-12-05T11:37:59.688Z",
+        "monitoring_at": null,
+        "resolved_at": "2014-01-08T21:33:33.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/f6febfb46",
+        "started_at": "2014-01-08T21:33:33.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "9r71fczp2dt7",
+                "status": "resolved",
+                "body": "<ul><li><strong>2014-01-08 21:33:33</strong> - gist.github.com is offline for unscheduled maintenance.</li><li><strong>2014-01-08 21:36:08</strong> - We're investigating reports of outages across GitHub and Gist.</li><li><strong>2014-01-08 21:54:16</strong> - GitHub and Gist are down. We're working to recover the site.</li><li><strong>2014-01-08 22:13:58</strong> - We've recovered from an internal DNS outage, and are working to restore service to all repositories.</li><li><strong>2014-01-08 22:24:49</strong> - GitHub and Gist are online, we're working to restore connectivity to some repositories.</li><li><strong>2014-01-08 22:43:33</strong> - There's a single fileserver offline that we're working to restore access to. Almost there.</li><li><strong>2014-01-08 23:24:25</strong> - We still have one last fileserver that we're working to restore access to. Getting closer.</li><li><strong>2014-01-08 23:47:04</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "b24kmzbfsv81",
+                "created_at": "2018-12-05T11:37:59.677Z",
+                "updated_at": "2018-12-05T11:37:59.677Z",
+                "display_at": "2014-01-08T21:33:33.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "04c28ykz2c5m",
+                        "name": "Gists",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

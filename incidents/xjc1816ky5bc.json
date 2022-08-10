@@ -1,0 +1,82 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "xjc1816ky5bc",
+        "name": "Incident on 2012-12-22 13:00:04 UTC",
+        "status": "resolved",
+        "created_at": "2012-12-22T13:00:04.000Z",
+        "updated_at": "2018-12-05T11:31:40.487Z",
+        "monitoring_at": null,
+        "resolved_at": "2012-12-22T13:00:04.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/df1f54a09",
+        "started_at": "2012-12-22T13:00:04.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "v40237y3qnsv",
+                "status": "resolved",
+                "body": "<ul><li><strong>2012-12-22 13:00:04</strong> - We are beginning our scheduled maintenance. We do not expect this to have visible impact to customers, but will update status if that changes.</li><li><strong>2012-12-22 13:17:02</strong> - We are seeing unicorns related to the scheduled maintenance. We are investigating.</li><li><strong>2012-12-22 14:03:09</strong> - We have stabilized the network but with reduced redundancy. We are working through restoring full redundancy.</li><li><strong>2012-12-22 16:05:58</strong> - The network continues to be stable, though operating with reduced redundancy. We continue to work with our network manufacturer to restore full redundancy.</li><li><strong>2012-12-22 18:06:11</strong> - The site continues to operate normally but at reduced redundancy while we investigate the root cause of the incident this morning. We will leave the status at yellow until we have restored full redundancy.</li><li><strong>2012-12-22 23:20:07</strong> - We are investigating unicorns and repo access problems.</li><li><strong>2012-12-22 23:43:03</strong> - A number of repositories are currently unavailable as we diagnose some network problems.</li><li><strong>2012-12-23 00:12:40</strong> - We've disabled GitHub.com and Gists while we continue to resolve the network problems.</li><li><strong>2012-12-23 02:06:56</strong> - Our network has been stable for some time, but weve chosen to remain in maintenance mode while we continue to restore internal services. We are making good progress and will post additional updates as we have more information available.</li><li><strong>2012-12-23 03:28:45</strong> - Our entire team continues to work to restore internal services. We dont have an ETA at this point, but we are making very good progress. Well continue to provide periodic updates.</li><li><strong>2012-12-23 04:23:53</strong> - Service is now fully restored. It may take a little while for performance to return to normal. Thanks so much for your patience.</li><li><strong>2012-12-23 04:42:37</strong> - Everything operating normally</li></ul>",
+                "incident_id": "xjc1816ky5bc",
+                "created_at": "2018-12-05T11:31:40.478Z",
+                "updated_at": "2018-12-05T11:31:40.478Z",
+                "display_at": "2012-12-22T13:00:04.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

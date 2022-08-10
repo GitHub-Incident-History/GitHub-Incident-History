@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "gbqr4y952z0l",
+        "name": "Incident on 2016-07-28 08:12:34 UTC",
+        "status": "resolved",
+        "created_at": "2016-07-28T08:12:34.000Z",
+        "updated_at": "2018-12-05T11:42:52.960Z",
+        "monitoring_at": null,
+        "resolved_at": "2016-07-28T08:12:34.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/29ff8bc88",
+        "started_at": "2016-07-28T08:12:34.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "w2mycd164c79",
+                "status": "resolved",
+                "body": "<ul><li><strong>2016-07-28 08:12:34</strong> - Users may experience some missing timeline data while we restore a core data service.</li><li><strong>2016-07-28 10:51:50</strong> - We are preparing to fail over a core service and expect a short period of unavailability.</li><li><strong>2016-07-28 10:58:27</strong> - Users may experience some missing timeline data while we restore a core data service.</li><li><strong>2016-07-28 10:59:43</strong> - Users may experience some missing timeline data while we restore a core data service.</li><li><strong>2016-07-28 12:11:07</strong> - We are preparing to fail over a core service and expect a short period of unavailability.</li><li><strong>2016-07-28 12:16:00</strong> - Users may experience some missing timeline data while we restore a core data service.</li><li><strong>2016-07-28 14:35:30</strong> - We are continuing to rebuild timelines after restoring a core data service. Users may see missing events until this operation completes.</li></ul>",
+                "incident_id": "gbqr4y952z0l",
+                "created_at": "2018-12-05T11:42:52.948Z",
+                "updated_at": "2018-12-05T11:42:52.948Z",
+                "display_at": "2016-07-28T08:12:34.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

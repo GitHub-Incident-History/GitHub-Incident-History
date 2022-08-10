@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "z1f350lg89h9",
+        "name": "Incident on 2018-07-17 21:39:40 UTC",
+        "status": "resolved",
+        "created_at": "2018-07-17T21:39:40.000Z",
+        "updated_at": "2018-12-05T11:45:19.784Z",
+        "monitoring_at": null,
+        "resolved_at": "2018-07-17T21:39:40.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/5a6b01a85",
+        "started_at": "2018-07-17T21:39:40.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "p9dbyj4g0nm0",
+                "status": "resolved",
+                "body": "<ul><li><strong>2018-07-17 21:39:40</strong> - We are investigating reports of elevated error rates.</li><li><strong>2018-07-17 21:50:14</strong> - Error rates have returned to normal after failing over a data service. We are continuing to monitor.</li><li><strong>2018-07-17 21:55:51</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "z1f350lg89h9",
+                "created_at": "2018-12-05T11:45:19.770Z",
+                "updated_at": "2018-12-05T11:45:19.770Z",
+                "display_at": "2018-07-17T21:39:40.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

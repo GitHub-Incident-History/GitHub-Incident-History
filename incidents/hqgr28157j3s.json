@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "hqgr28157j3s",
+        "name": "Incident on 2013-03-14 12:56:39 UTC",
+        "status": "resolved",
+        "created_at": "2013-03-14T12:56:39.000Z",
+        "updated_at": "2018-12-05T11:33:18.372Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-03-14T12:56:39.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/30b4e5d36",
+        "started_at": "2013-03-14T12:56:39.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "4h62p8tnty7q",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-03-14 12:56:39</strong> - Seeing reports of SSH connection reset errors on pushes/pulls. Investigating.</li><li><strong>2013-03-14 13:12:52</strong> - We are experiencing intermittent timeouts of fetches over git:// and SSH. HTTPS fetches unaffected.</li><li><strong>2013-03-14 13:31:54</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "hqgr28157j3s",
+                "created_at": "2018-12-05T11:33:18.364Z",
+                "updated_at": "2018-12-05T11:33:18.364Z",
+                "display_at": "2013-03-14T12:56:39.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

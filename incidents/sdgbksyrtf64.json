@@ -1,0 +1,82 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "sdgbksyrtf64",
+        "name": "Incident on 2013-08-04 00:04:16 UTC",
+        "status": "resolved",
+        "created_at": "2013-08-04T00:04:16.000Z",
+        "updated_at": "2018-12-05T11:36:05.452Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-08-04T00:04:16.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/e954f1531",
+        "started_at": "2013-08-04T00:04:16.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "j0l9mmz20114",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-08-04 00:04:16</strong> - We're investigating issues reaching GitHub.com.</li><li><strong>2013-08-04 00:18:58</strong> - GitHub.com is recovering at this time from a DoS attack. We're continuing to monitor things and will provide further updates as the situation develops.</li><li><strong>2013-08-04 00:24:43</strong> - The DoS attack on GitHub.com is continuing and is mostly unavailable while we continue to try and mitigate the attack.</li><li><strong>2013-08-04 00:28:44</strong> - GitHub.com is currently available again. We're going to keep the status \"yellow\" until we confirm all avenues of attack have been fully mitigated, and continue to update as things change.</li><li><strong>2013-08-04 00:33:40</strong> - GitHub.com is undergoing a series of DoS attacks. We're temporarily degrading several of our services as we continue to fight off these attacks.</li><li><strong>2013-08-04 01:33:40</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "sdgbksyrtf64",
+                "created_at": "2018-12-05T11:36:05.440Z",
+                "updated_at": "2018-12-05T11:36:05.440Z",
+                "display_at": "2013-08-04T00:04:16.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

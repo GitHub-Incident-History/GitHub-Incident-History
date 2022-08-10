@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "2zr4t3c482gt",
+        "name": "Incident on 2014-07-29 13:38:25 UTC",
+        "status": "resolved",
+        "created_at": "2014-07-29T13:38:25.000Z",
+        "updated_at": "2018-12-05T11:39:28.076Z",
+        "monitoring_at": null,
+        "resolved_at": "2014-07-29T13:38:25.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/340c5fd20",
+        "started_at": "2014-07-29T13:38:25.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "3tdjrchc5blk",
+                "status": "resolved",
+                "body": "<ul><li><strong>2014-07-29 13:38:25</strong> - We're investigating an issue with hook delivery.</li><li><strong>2014-07-29 14:05:54</strong> - We've identified an issue with external connectivity, affecting hooks, avatars and other services.</li><li><strong>2014-07-29 14:15:41</strong> - Service has recovered, we are currently processing hooks from the backlog</li><li><strong>2014-07-29 14:35:18</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "2zr4t3c482gt",
+                "created_at": "2018-12-05T11:39:28.064Z",
+                "updated_at": "2018-12-05T11:39:28.064Z",
+                "display_at": "2014-07-29T13:38:25.000Z",
+                "affected_components": [
+                    {
+                        "code": "brv1bkgrwx7q",
+                        "name": "API Requests",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "brv1bkgrwx7q",
+                "name": "API Requests",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.621Z",
+                "updated_at": "2022-08-10T01:31:06.821Z",
+                "position": 2,
+                "description": "Requests for GitHub APIs",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

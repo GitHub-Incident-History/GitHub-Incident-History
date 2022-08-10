@@ -1,0 +1,105 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "rgy28jwprr1c",
+        "name": "Notifications degredation",
+        "status": "resolved",
+        "created_at": "2019-09-23T16:12:01.654Z",
+        "updated_at": "2019-09-23T16:37:47.378Z",
+        "monitoring_at": "2019-09-23T16:28:27.036Z",
+        "resolved_at": "2019-09-23T16:37:46.707Z",
+        "impact": "critical",
+        "shortlink": "http://stspg.io/b7f033572",
+        "started_at": "2019-09-23T16:12:01.644Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "y7yhygsyjy1s",
+                "status": "resolved",
+                "body": "The backlog has cleared and all notifications are operational.",
+                "incident_id": "rgy28jwprr1c",
+                "created_at": "2019-09-23T16:37:46.707Z",
+                "updated_at": "2019-09-23T16:37:47.375Z",
+                "display_at": "2019-09-23T16:37:46.707Z",
+                "affected_components": [
+                    {
+                        "code": "5bfcr2x9x8kc",
+                        "name": "Notifications",
+                        "old_status": "degraded_performance",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": 1176173826826092544
+            },
+            {
+                "id": "pv8bd50rfbxt",
+                "status": "monitoring",
+                "body": "A fix has been implemented and we are monitoring the results.",
+                "incident_id": "rgy28jwprr1c",
+                "created_at": "2019-09-23T16:28:27.036Z",
+                "updated_at": "2019-09-23T16:28:27.036Z",
+                "display_at": "2019-09-23T16:28:27.036Z",
+                "affected_components": [
+                    {
+                        "code": "5bfcr2x9x8kc",
+                        "name": "Notifications",
+                        "old_status": "degraded_performance",
+                        "new_status": "degraded_performance"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "x18xdct3cd4s",
+                "status": "identified",
+                "body": "Webhooks have recovered, GitHub updates via the Slack integration are behind as we work through the backlog",
+                "incident_id": "rgy28jwprr1c",
+                "created_at": "2019-09-23T16:22:14.769Z",
+                "updated_at": "2019-09-23T16:22:15.194Z",
+                "display_at": "2019-09-23T16:22:14.769Z",
+                "affected_components": [
+                    {
+                        "code": "5bfcr2x9x8kc",
+                        "name": "Notifications",
+                        "old_status": "major_outage",
+                        "new_status": "degraded_performance"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": 1176169917025931264
+            },
+            {
+                "id": "rkvg0nxqpgfc",
+                "status": "investigating",
+                "body": "We are investigating a delay in webhook delivery.",
+                "incident_id": "rgy28jwprr1c",
+                "created_at": "2019-09-23T16:12:01.706Z",
+                "updated_at": "2019-09-23T16:12:02.055Z",
+                "display_at": "2019-09-23T16:12:01.706Z",
+                "affected_components": [
+                    {
+                        "code": "5bfcr2x9x8kc",
+                        "name": "Notifications",
+                        "old_status": "major_outage",
+                        "new_status": "major_outage"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": 1176167345506570240
+            }
+        ],
+        "components": []
+    }
+}

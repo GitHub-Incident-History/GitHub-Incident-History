@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "g6pyqnppzynt",
+        "name": "Incident on 2013-02-06 01:04:07 UTC",
+        "status": "resolved",
+        "created_at": "2013-02-06T01:04:07.000Z",
+        "updated_at": "2018-12-05T11:32:38.660Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-02-06T01:04:07.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/61d56b9d0",
+        "started_at": "2013-02-06T01:04:07.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "ghv3pp2w6w2j",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-02-06 01:04:07</strong> - Issue and user search results are currently unavailable while we perform maintenance.</li><li><strong>2013-02-06 01:06:48</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "g6pyqnppzynt",
+                "created_at": "2018-12-05T11:32:38.647Z",
+                "updated_at": "2018-12-05T11:32:38.647Z",
+                "display_at": "2013-02-06T01:04:07.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

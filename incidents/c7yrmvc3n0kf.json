@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "c7yrmvc3n0kf",
+        "name": "Incident on 2010-09-28 14:51:00 UTC",
+        "status": "resolved",
+        "created_at": "2010-09-28T14:51:00.000Z",
+        "updated_at": "2018-12-05T11:25:51.166Z",
+        "monitoring_at": null,
+        "resolved_at": "2010-09-28T14:51:00.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/f5a5f4060",
+        "started_at": "2010-09-28T14:51:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "69j0khzjfrf9",
+                "status": "resolved",
+                "body": "<ul><li><strong>2010-09-28 14:51:00</strong> - We're having issues with all git:// for all repos.  You can still use the SSH and HTTP URLs to get your Git repo data while we fix this.</li><li><strong>2010-09-28 16:29:00</strong> - Git:// access has been restored to all repos.  Sorry for the hassles!  We'll have a blog post about it later today.</li></ul>",
+                "incident_id": "c7yrmvc3n0kf",
+                "created_at": "2018-12-05T11:25:51.156Z",
+                "updated_at": "2018-12-05T11:25:51.156Z",
+                "display_at": "2010-09-28T14:51:00.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

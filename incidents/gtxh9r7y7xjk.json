@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "gtxh9r7y7xjk",
+        "name": "Incident on 2014-01-09 08:20:44 UTC",
+        "status": "resolved",
+        "created_at": "2014-01-09T08:20:44.000Z",
+        "updated_at": "2018-12-05T11:38:01.337Z",
+        "monitoring_at": null,
+        "resolved_at": "2014-01-09T08:20:44.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/b238a73ff",
+        "started_at": "2014-01-09T08:20:44.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "vjp2n829pg24",
+                "status": "resolved",
+                "body": "<ul><li><strong>2014-01-09 08:20:44</strong> - We are currently performing emergency maintenance on one of our fileserver pairs, affecting a small percentage of repositories</li><li><strong>2014-01-09 09:06:47</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "gtxh9r7y7xjk",
+                "created_at": "2018-12-05T11:38:01.316Z",
+                "updated_at": "2018-12-05T11:38:01.316Z",
+                "display_at": "2014-01-09T08:20:44.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

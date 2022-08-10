@@ -1,0 +1,82 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "sj1q3w2xgpqs",
+        "name": "Incident on 2013-07-29 13:29:24 UTC",
+        "status": "resolved",
+        "created_at": "2013-07-29T13:29:24.000Z",
+        "updated_at": "2018-12-05T11:36:00.682Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-07-29T13:29:24.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/d03e2ebf4",
+        "started_at": "2013-07-29T13:29:24.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "f38vmvvzxw1l",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-07-29 13:29:24</strong> - We're investigating a small increase in exceptions affecting the GitHub API.</li><li><strong>2013-07-29 15:05:38</strong> - We're currently experiencing a large DDoS attack. The site is experiencing major packet loss and is mostly unavailable. We're working to further mitigate the attack.</li><li><strong>2013-07-29 16:10:54</strong> - We've mitigated the DDoS attack and the site should responding normally. We're still investigating the cause of the small increase in exceptions when accessing the GitHub API.</li><li><strong>2013-07-29 21:09:54</strong> - We are continuing to work on the increased exception rate on the GitHub API. We will update again as soon as have the source of these exceptions resolved. </li><li><strong>2013-07-29 22:23:19</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "sj1q3w2xgpqs",
+                "created_at": "2018-12-05T11:36:00.667Z",
+                "updated_at": "2018-12-05T11:36:00.667Z",
+                "display_at": "2013-07-29T13:29:24.000Z",
+                "affected_components": [
+                    {
+                        "code": "brv1bkgrwx7q",
+                        "name": "API Requests",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "brv1bkgrwx7q",
+                "name": "API Requests",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.621Z",
+                "updated_at": "2022-08-10T01:31:06.821Z",
+                "position": 2,
+                "description": "Requests for GitHub APIs",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

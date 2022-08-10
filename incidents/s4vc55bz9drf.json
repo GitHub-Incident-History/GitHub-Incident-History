@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "s4vc55bz9drf",
+        "name": "Incident on 2010-03-30 05:03:00 UTC",
+        "status": "resolved",
+        "created_at": "2010-03-30T05:03:00.000Z",
+        "updated_at": "2018-12-05T11:24:41.151Z",
+        "monitoring_at": null,
+        "resolved_at": "2010-03-30T05:03:00.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/1e9e5027a",
+        "started_at": "2010-03-30T05:03:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "wty65j3vhzlz",
+                "status": "resolved",
+                "body": "<ul><li><strong>2010-03-30 05:03:00</strong> - One of the file servers is misbehaving. Looking into it.</li><li><strong>2010-03-30 05:13:00</strong> - The file server failed in a way that heartbeat did not detect it. Forced a failover and all file servers are back online. Investigating heartbeat failure now.</li></ul>",
+                "incident_id": "s4vc55bz9drf",
+                "created_at": "2018-12-05T11:24:41.140Z",
+                "updated_at": "2018-12-05T11:24:41.140Z",
+                "display_at": "2010-03-30T05:03:00.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

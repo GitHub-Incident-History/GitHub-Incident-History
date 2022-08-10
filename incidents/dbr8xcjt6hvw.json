@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "dbr8xcjt6hvw",
+        "name": "Incident on 2015-08-05 03:51:52 UTC",
+        "status": "resolved",
+        "created_at": "2015-08-05T03:51:52.000Z",
+        "updated_at": "2018-12-05T11:40:52.981Z",
+        "monitoring_at": null,
+        "resolved_at": "2015-08-05T03:51:52.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/16bceea1c",
+        "started_at": "2015-08-05T03:51:52.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "zw5kcxs4zf9f",
+                "status": "resolved",
+                "body": "<ul><li><strong>2015-08-05 03:51:52</strong> - We are investigating reports of connectivity issues to GitHub.com.</li><li><strong>2015-08-05 04:25:52</strong> - We continue to investigate current connectivity issues on GitHub.com.</li><li><strong>2015-08-05 04:38:20</strong> - All systems reporting at 100%.</li></ul>",
+                "incident_id": "dbr8xcjt6hvw",
+                "created_at": "2018-12-05T11:40:52.972Z",
+                "updated_at": "2018-12-05T11:40:52.972Z",
+                "display_at": "2015-08-05T03:51:52.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

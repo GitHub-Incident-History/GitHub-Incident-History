@@ -1,0 +1,126 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "xp2qc958g4wt",
+        "name": "Incident on 2020-02-25 16:36 UTC",
+        "status": "resolved",
+        "created_at": "2020-02-25T16:36:01.646Z",
+        "updated_at": "2020-02-25T18:48:24.583Z",
+        "monitoring_at": null,
+        "resolved_at": "2020-02-25T18:48:24.557Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/5hk5hhc8ync6",
+        "started_at": "2020-02-25T16:36:01.639Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "vdd5lv67dfcf",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "xp2qc958g4wt",
+                "created_at": "2020-02-25T18:48:24.557Z",
+                "updated_at": "2020-02-25T18:48:24.557Z",
+                "display_at": "2020-02-25T18:48:24.557Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "2mj1rvq8csft",
+                "status": "investigating",
+                "body": "We have applied a fix and are monitoring service recovery.",
+                "incident_id": "xp2qc958g4wt",
+                "created_at": "2020-02-25T18:22:09.847Z",
+                "updated_at": "2020-02-25T18:22:09.847Z",
+                "display_at": "2020-02-25T18:22:09.847Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "bzqb4fr6y4b8",
+                "status": "investigating",
+                "body": "We are investigating elevated errors for web and api requests.",
+                "incident_id": "xp2qc958g4wt",
+                "created_at": "2020-02-25T17:54:07.931Z",
+                "updated_at": "2020-02-25T17:54:07.931Z",
+                "display_at": "2020-02-25T17:54:07.931Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "qd1jd65mt1th",
+                "status": "investigating",
+                "body": "We continue to monitor service recovery. We are processing a backlog of notifications and webhooks.",
+                "incident_id": "xp2qc958g4wt",
+                "created_at": "2020-02-25T17:28:13.345Z",
+                "updated_at": "2020-02-25T17:28:13.345Z",
+                "display_at": "2020-02-25T17:28:13.345Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "tvpgwr5m1npg",
+                "status": "investigating",
+                "body": "We have identified the source of errors and are continuing to monitor recovery.",
+                "incident_id": "xp2qc958g4wt",
+                "created_at": "2020-02-25T16:45:58.003Z",
+                "updated_at": "2020-02-25T16:45:58.003Z",
+                "display_at": "2020-02-25T16:45:58.003Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "xt6xdk2qq8md",
+                "status": "investigating",
+                "body": "Currently investigating increased error rate.",
+                "incident_id": "xp2qc958g4wt",
+                "created_at": "2020-02-25T16:36:01.674Z",
+                "updated_at": "2020-02-25T16:36:01.674Z",
+                "display_at": "2020-02-25T16:36:01.674Z",
+                "affected_components": [
+                    {
+                        "code": "0l2p9nhqnxpd",
+                        "name": "Visit www.githubstatus.com for more information",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "0l2p9nhqnxpd",
+                "name": "Visit www.githubstatus.com for more information",
+                "status": "operational",
+                "created_at": "2018-12-05T19:39:40.838Z",
+                "updated_at": "2020-04-02T21:56:21.954Z",
+                "position": 4,
+                "description": null,
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

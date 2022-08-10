@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "38c8klygm7hk",
+        "name": "Incident on 2013-11-14 21:04:49 UTC",
+        "status": "resolved",
+        "created_at": "2013-11-14T21:04:49.000Z",
+        "updated_at": "2018-12-05T11:37:36.122Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-11-14T21:04:49.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/e3b33ab26",
+        "started_at": "2013-11-14T21:04:49.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "j4ry6p79grlb",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-11-14 21:04:49</strong> - We are currently experiencing issues loading static assets</li><li><strong>2013-11-14 21:28:23</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "38c8klygm7hk",
+                "created_at": "2018-12-05T11:37:36.109Z",
+                "updated_at": "2018-12-05T11:37:36.109Z",
+                "display_at": "2013-11-14T21:04:49.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

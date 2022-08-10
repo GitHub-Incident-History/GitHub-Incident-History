@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "06r523jc74f4",
+        "name": "Incident on 2011-01-04 21:12:00 UTC",
+        "status": "resolved",
+        "created_at": "2011-01-04T21:12:00.000Z",
+        "updated_at": "2018-12-05T11:26:23.562Z",
+        "monitoring_at": null,
+        "resolved_at": "2011-01-04T21:12:00.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/9c8c5e6cb",
+        "started_at": "2011-01-04T21:12:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "2kd6n718tpw3",
+                "status": "resolved",
+                "body": "<ul><li><strong>2011-01-04 21:12:00</strong> - One of our file servers is acting up, we're working on the issue.</li><li><strong>2011-01-04 21:13:00</strong> - We've upgraded the kernel on the misbehaving fileserver and everything should be back to normal.  We're keeping a close eye on everything.</li></ul>",
+                "incident_id": "06r523jc74f4",
+                "created_at": "2018-12-05T11:26:23.551Z",
+                "updated_at": "2018-12-05T11:26:23.551Z",
+                "display_at": "2011-01-04T21:12:00.000Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

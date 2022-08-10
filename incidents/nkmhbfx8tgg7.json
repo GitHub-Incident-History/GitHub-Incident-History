@@ -1,0 +1,74 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "nkmhbfx8tgg7",
+        "name": "Incident on 2020-08-04 13:48 UTC",
+        "status": "resolved",
+        "created_at": "2020-08-04T13:48:52.561Z",
+        "updated_at": "2020-08-04T14:01:07.208Z",
+        "monitoring_at": null,
+        "resolved_at": "2020-08-04T14:01:07.191Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/jvjk3y6hwrw7",
+        "started_at": "2020-08-04T13:48:52.552Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "dw3mlqtchs2r",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "nkmhbfx8tgg7",
+                "created_at": "2020-08-04T14:01:07.191Z",
+                "updated_at": "2020-08-04T14:01:07.191Z",
+                "display_at": "2020-08-04T14:01:07.191Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "k0s14k26jcpr",
+                "status": "investigating",
+                "body": "We are investigating reports of degraded performance for Git Operations.",
+                "incident_id": "nkmhbfx8tgg7",
+                "created_at": "2020-08-04T13:48:52.660Z",
+                "updated_at": "2020-08-04T13:48:52.660Z",
+                "display_at": "2020-08-04T13:48:52.660Z",
+                "affected_components": [
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

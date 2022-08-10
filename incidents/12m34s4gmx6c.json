@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "12m34s4gmx6c",
+        "name": "Incident on 2016-08-19 00:48:25 UTC",
+        "status": "resolved",
+        "created_at": "2016-08-19T00:48:25.000Z",
+        "updated_at": "2018-12-05T11:43:00.588Z",
+        "monitoring_at": null,
+        "resolved_at": "2016-08-19T00:48:25.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/0a67751b9",
+        "started_at": "2016-08-19T00:48:25.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "xr8l5h7304yy",
+                "status": "resolved",
+                "body": "<ul><li><strong>2016-08-19 00:48:25</strong> - We are recovering from a brief network disruption. Webhook delivery was impacted from 00:18 UTC to 00:40 UTC.</li></ul>",
+                "incident_id": "12m34s4gmx6c",
+                "created_at": "2018-12-05T11:43:00.578Z",
+                "updated_at": "2018-12-05T11:43:00.578Z",
+                "display_at": "2016-08-19T00:48:25.000Z",
+                "affected_components": [
+                    {
+                        "code": "brv1bkgrwx7q",
+                        "name": "API Requests",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "brv1bkgrwx7q",
+                "name": "API Requests",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.621Z",
+                "updated_at": "2022-08-10T01:31:06.821Z",
+                "position": 2,
+                "description": "Requests for GitHub APIs",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

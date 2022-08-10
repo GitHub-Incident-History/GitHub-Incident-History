@@ -1,0 +1,103 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "s9dy5jrj9bll",
+        "name": "Incident on 2014-07-16 07:24:04 UTC",
+        "status": "resolved",
+        "created_at": "2014-07-16T07:24:04.000Z",
+        "updated_at": "2018-12-05T11:39:20.653Z",
+        "monitoring_at": null,
+        "resolved_at": "2014-07-16T07:24:04.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/7122f49f6",
+        "started_at": "2014-07-16T07:24:04.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "b7fvgqqq8jbx",
+                "status": "resolved",
+                "body": "<ul><li><strong>2014-07-16 07:24:04</strong> - We're investigating problems serving avatars and uploaded downloads.</li><li><strong>2014-07-16 07:32:31</strong> - We've identified a network event affecting hook delivery, avatars, downloads of uploaded files, and other services and are working to resolve the problem.</li><li><strong>2014-07-16 09:01:48</strong> - We're continuing to diagnose a misbehaving network device.</li><li><strong>2014-07-16 09:12:49</strong> - We're investigating a major service outage.</li><li><strong>2014-07-16 09:18:50</strong> - We've performed emergency maintenance on the misbehaving network device and services are now recovering.</li><li><strong>2014-07-16 09:57:51</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "s9dy5jrj9bll",
+                "created_at": "2018-12-05T11:39:20.642Z",
+                "updated_at": "2018-12-05T11:39:20.642Z",
+                "display_at": "2014-07-16T07:24:04.000Z",
+                "affected_components": [
+                    {
+                        "code": "brv1bkgrwx7q",
+                        "name": "API Requests",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "brv1bkgrwx7q",
+                "name": "API Requests",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.621Z",
+                "updated_at": "2022-08-10T01:31:06.821Z",
+                "position": 2,
+                "description": "Requests for GitHub APIs",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

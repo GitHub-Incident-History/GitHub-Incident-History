@@ -1,0 +1,82 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "hy9f40v0f0q6",
+        "name": "Incident on 2013-03-14 12:06:06 UTC",
+        "status": "resolved",
+        "created_at": "2013-03-14T12:06:06.000Z",
+        "updated_at": "2018-12-05T11:33:16.898Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-03-14T12:06:06.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/f80d31057",
+        "started_at": "2013-03-14T12:06:06.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "xmlqhqn0xvny",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-03-14 12:06:06</strong> - Investigating reports of problems connection to GitHub.com</li><li><strong>2013-03-14 12:08:10</strong> - GitHub.com is currently unavailable due to what appears to be another DDoS attack.</li><li><strong>2013-03-14 12:18:51</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "hy9f40v0f0q6",
+                "created_at": "2018-12-05T11:33:16.886Z",
+                "updated_at": "2018-12-05T11:33:16.886Z",
+                "display_at": "2013-03-14T12:06:06.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

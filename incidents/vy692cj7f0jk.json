@@ -1,0 +1,87 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "vy692cj7f0jk",
+        "name": "Incident on 2020-04-22 23:59 UTC",
+        "status": "resolved",
+        "created_at": "2020-04-22T23:59:57.715Z",
+        "updated_at": "2020-04-23T00:30:07.698Z",
+        "monitoring_at": null,
+        "resolved_at": "2020-04-23T00:30:07.684Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/vs7srg5dtx66",
+        "started_at": "2020-04-22T23:59:57.707Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "7wpzkzd9wcq7",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "vy692cj7f0jk",
+                "created_at": "2020-04-23T00:30:07.684Z",
+                "updated_at": "2020-04-23T00:30:07.684Z",
+                "display_at": "2020-04-23T00:30:07.684Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "pmgbmzjkxwkl",
+                "status": "investigating",
+                "body": "We have deployed a fix and are monitoring recovery.",
+                "incident_id": "vy692cj7f0jk",
+                "created_at": "2020-04-23T00:09:43.569Z",
+                "updated_at": "2020-04-23T00:09:43.569Z",
+                "display_at": "2020-04-23T00:09:43.569Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "xzk3lcctm1lp",
+                "status": "investigating",
+                "body": "We are investigating elevated errors starting GitHub Actions workflows.",
+                "incident_id": "vy692cj7f0jk",
+                "created_at": "2020-04-22T23:59:57.765Z",
+                "updated_at": "2020-04-22T23:59:57.765Z",
+                "display_at": "2020-04-22T23:59:57.765Z",
+                "affected_components": [
+                    {
+                        "code": "0l2p9nhqnxpd",
+                        "name": "Visit www.githubstatus.com for more information",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "0l2p9nhqnxpd",
+                "name": "Visit www.githubstatus.com for more information",
+                "status": "operational",
+                "created_at": "2018-12-05T19:39:40.838Z",
+                "updated_at": "2020-04-02T21:56:21.954Z",
+                "position": 4,
+                "description": null,
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

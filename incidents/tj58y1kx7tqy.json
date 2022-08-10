@@ -1,0 +1,127 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "tj58y1kx7tqy",
+        "name": "Incident on 2019-03-12 14:27 UTC",
+        "status": "resolved",
+        "created_at": "2019-03-12T14:27:14.967Z",
+        "updated_at": "2019-03-12T16:27:13.490Z",
+        "monitoring_at": null,
+        "resolved_at": "2019-03-12T16:27:13.465Z",
+        "impact": "none",
+        "shortlink": "http://stspg.io/e37ca08ef",
+        "started_at": "2019-03-12T14:27:15.032Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "tc3wbfkc34ky",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "tj58y1kx7tqy",
+                "created_at": "2019-03-12T16:27:13.465Z",
+                "updated_at": "2019-03-12T16:27:13.465Z",
+                "display_at": "2019-03-12T16:27:13.465Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "tyxrc302m97w",
+                "status": "investigating",
+                "body": "We are recovering but continue to work towards a full recovery.",
+                "incident_id": "tj58y1kx7tqy",
+                "created_at": "2019-03-12T15:57:54.079Z",
+                "updated_at": "2019-03-12T15:57:54.079Z",
+                "display_at": "2019-03-12T15:57:54.079Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "vybp0yxkrfrn",
+                "status": "investigating",
+                "body": "We continue to investigate the degraded performance across Web, Pages and Notifications.",
+                "incident_id": "tj58y1kx7tqy",
+                "created_at": "2019-03-12T15:10:50.155Z",
+                "updated_at": "2019-03-12T15:10:50.551Z",
+                "display_at": "2019-03-12T15:10:50.155Z",
+                "affected_components": [
+                    {
+                        "code": "0l2p9nhqnxpd",
+                        "name": "Visit www.githubstatus.com for more information",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": 1105486312226742272
+            },
+            {
+                "id": "0rrb9m825ds4",
+                "status": "investigating",
+                "body": "We are seeing degraded performance on web, pages and notifications.",
+                "incident_id": "tj58y1kx7tqy",
+                "created_at": "2019-03-12T14:45:32.302Z",
+                "updated_at": "2019-03-12T14:45:32.665Z",
+                "display_at": "2019-03-12T14:45:32.302Z",
+                "affected_components": [
+                    {
+                        "code": "0l2p9nhqnxpd",
+                        "name": "Visit www.githubstatus.com for more information",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": 1105479945822756864
+            },
+            {
+                "id": "7nhvcrv46j80",
+                "status": "investigating",
+                "body": "We are investigating reports of degraded performance on pages.",
+                "incident_id": "tj58y1kx7tqy",
+                "created_at": "2019-03-12T14:27:15.032Z",
+                "updated_at": "2019-03-12T14:27:15.032Z",
+                "display_at": "2019-03-12T14:27:15.032Z",
+                "affected_components": [
+                    {
+                        "code": "0l2p9nhqnxpd",
+                        "name": "Visit www.githubstatus.com for more information",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "0l2p9nhqnxpd",
+                "name": "Visit www.githubstatus.com for more information",
+                "status": "operational",
+                "created_at": "2018-12-05T19:39:40.838Z",
+                "updated_at": "2020-04-02T21:56:21.954Z",
+                "position": 4,
+                "description": null,
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

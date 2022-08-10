@@ -1,0 +1,38 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "gx1jxysvtlz4",
+        "name": "Incident on 2010-05-05 22:35:00 UTC",
+        "status": "resolved",
+        "created_at": "2010-05-05T22:35:00.000Z",
+        "updated_at": "2018-12-05T11:24:57.065Z",
+        "monitoring_at": null,
+        "resolved_at": "2010-05-05T22:35:00.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/0c800e3d6",
+        "started_at": "2010-05-05T22:35:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "dprczfjrr4xd",
+                "status": "resolved",
+                "body": "<ul><li><strong>2010-05-05 22:35:00</strong> - All queues are caught up, everything should be good to go</li></ul>",
+                "incident_id": "gx1jxysvtlz4",
+                "created_at": "2018-12-05T11:24:57.058Z",
+                "updated_at": "2018-12-05T11:24:57.058Z",
+                "display_at": "2010-05-05T22:35:00.000Z",
+                "affected_components": null,
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": []
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "5t09j5cly2sk",
+        "name": "Incident on 2020-10-30 21:04 UTC",
+        "status": "resolved",
+        "created_at": "2020-10-30T21:04:32.273Z",
+        "updated_at": "2020-10-30T22:01:15.418Z",
+        "monitoring_at": null,
+        "resolved_at": "2020-10-30T22:01:15.394Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/4d0snf77n7vx",
+        "started_at": "2020-10-30T21:04:32.262Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "yzqdth1y4s79",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "5t09j5cly2sk",
+                "created_at": "2020-10-30T22:01:15.394Z",
+                "updated_at": "2020-10-30T22:01:15.394Z",
+                "display_at": "2020-10-30T22:01:15.394Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "k57vtk7yt67q",
+                "status": "investigating",
+                "body": "We are investigating reports of degraded performance for API Requests.",
+                "incident_id": "5t09j5cly2sk",
+                "created_at": "2020-10-30T21:04:32.374Z",
+                "updated_at": "2020-10-30T21:04:32.374Z",
+                "display_at": "2020-10-30T21:04:32.374Z",
+                "affected_components": [
+                    {
+                        "code": "brv1bkgrwx7q",
+                        "name": "API Requests",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "brv1bkgrwx7q",
+                "name": "API Requests",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.621Z",
+                "updated_at": "2022-08-10T01:31:06.821Z",
+                "position": 2,
+                "description": "Requests for GitHub APIs",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

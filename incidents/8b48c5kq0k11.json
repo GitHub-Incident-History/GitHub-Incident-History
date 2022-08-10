@@ -1,0 +1,82 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "8b48c5kq0k11",
+        "name": "Incident on 2012-02-16 00:13:10 UTC",
+        "status": "resolved",
+        "created_at": "2012-02-16T00:13:10.000Z",
+        "updated_at": "2018-12-05T11:28:21.702Z",
+        "monitoring_at": null,
+        "resolved_at": "2012-02-16T00:13:10.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/3e24044ba",
+        "started_at": "2012-02-16T00:13:10.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "8jdt4l5bwbvq",
+                "status": "resolved",
+                "body": "<ul><li><strong>2012-02-16 00:13:10</strong> - Tracking down the source of the unicorns now</li><li><strong>2012-02-16 00:20:26</strong> - Had to restart MySQL. InnoDB recovery happening now.</li><li><strong>2012-02-16 00:26:33</strong> - MySQL is back up. Services are slow, but recovering.</li><li><strong>2012-02-16 00:29:41</strong> - Still working to get services fully recovered.</li><li><strong>2012-02-16 00:56:21</strong> - Site is recovering, but a small percentage of repos are still unavailable. We're fixing up the routing table now.</li><li><strong>2012-02-16 01:40:26</strong> - All repos should be available now. We're still working on fixing the routing table for a handful of gists and enabling a few site features we disabled during the outage.</li><li><strong>2012-02-16 02:25:01</strong> - All services have recovered and all features are enabled. Please email support@github.com if you're seeing any issues!</li></ul>",
+                "incident_id": "8b48c5kq0k11",
+                "created_at": "2018-12-05T11:28:21.690Z",
+                "updated_at": "2018-12-05T11:28:21.690Z",
+                "display_at": "2012-02-16T00:13:10.000Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues, PRs, Dashboard, Projects",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-07-01T09:48:35.891Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

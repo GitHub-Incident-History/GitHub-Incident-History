@@ -1,0 +1,82 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "b9kwydkqg7r1",
+        "name": "Incident on 2010-06-29 08:06:00 UTC",
+        "status": "resolved",
+        "created_at": "2010-06-29T08:06:00.000Z",
+        "updated_at": "2018-12-05T11:25:21.831Z",
+        "monitoring_at": null,
+        "resolved_at": "2010-06-29T08:06:00.000Z",
+        "impact": "major",
+        "shortlink": "http://stspg.io/ce5d5277f",
+        "started_at": "2010-06-29T08:06:00.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "yrldwbnf1q22",
+                "status": "resolved",
+                "body": "<ul><li><strong>2010-06-29 08:06:00</strong> - We're aware of the broken git pushing and are deploying a fix right now.</li><li><strong>2010-06-29 08:08:00</strong> - Pushes are working again.  There was no data loss, but post-receive hooks were not run properly on affected pushes.</li></ul>",
+                "incident_id": "b9kwydkqg7r1",
+                "created_at": "2018-12-05T11:25:21.819Z",
+                "updated_at": "2018-12-05T11:25:21.819Z",
+                "display_at": "2010-06-29T08:06:00.000Z",
+                "affected_components": [
+                    {
+                        "code": "brv1bkgrwx7q",
+                        "name": "API Requests",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "brv1bkgrwx7q",
+                "name": "API Requests",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.621Z",
+                "updated_at": "2022-08-10T01:31:06.821Z",
+                "position": 2,
+                "description": "Requests for GitHub APIs",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

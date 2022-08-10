@@ -1,0 +1,100 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "6vyp7d36str6",
+        "name": "Incident on 2019-05-16 19:06 UTC",
+        "status": "resolved",
+        "created_at": "2019-05-16T19:06:10.052Z",
+        "updated_at": "2019-05-16T20:17:10.005Z",
+        "monitoring_at": null,
+        "resolved_at": "2019-05-16T20:17:09.985Z",
+        "impact": "none",
+        "shortlink": "http://stspg.io/5052db27e",
+        "started_at": "2019-05-16T19:06:10.042Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "kkwj8nndn5dj",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "6vyp7d36str6",
+                "created_at": "2019-05-16T20:17:09.985Z",
+                "updated_at": "2019-05-16T20:17:09.985Z",
+                "display_at": "2019-05-16T20:17:09.985Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "dhflyrhjbf1c",
+                "status": "investigating",
+                "body": "We deployed a configuration fix for GitHub Pages, and are monitoring the results.",
+                "incident_id": "6vyp7d36str6",
+                "created_at": "2019-05-16T19:46:38.314Z",
+                "updated_at": "2019-05-16T19:46:38.314Z",
+                "display_at": "2019-05-16T19:46:38.314Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "ty5bds9fs011",
+                "status": "investigating",
+                "body": "We have identified a configuration problem with GitHub Pages and are deploying a fix.",
+                "incident_id": "6vyp7d36str6",
+                "created_at": "2019-05-16T19:20:11.841Z",
+                "updated_at": "2019-05-16T19:20:11.841Z",
+                "display_at": "2019-05-16T19:20:11.841Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "bb7b40gpqr5k",
+                "status": "investigating",
+                "body": "Some customers are having problems accessing GitHub Pages.",
+                "incident_id": "6vyp7d36str6",
+                "created_at": "2019-05-16T19:06:10.145Z",
+                "updated_at": "2019-05-16T19:06:10.145Z",
+                "display_at": "2019-05-16T19:06:10.145Z",
+                "affected_components": [
+                    {
+                        "code": "0l2p9nhqnxpd",
+                        "name": "Visit www.githubstatus.com for more information",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "0l2p9nhqnxpd",
+                "name": "Visit www.githubstatus.com for more information",
+                "status": "operational",
+                "created_at": "2018-12-05T19:39:40.838Z",
+                "updated_at": "2020-04-02T21:56:21.954Z",
+                "position": 4,
+                "description": null,
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "xqj5k7lhbrz3",
+        "name": "Incident on 2013-01-24 21:47:49 UTC",
+        "status": "resolved",
+        "created_at": "2013-01-24T21:47:49.000Z",
+        "updated_at": "2018-12-05T11:32:25.202Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-01-24T21:47:49.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/2f2b53c04",
+        "started_at": "2013-01-24T21:47:49.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "79z18q7hdwqt",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-01-24 21:47:49</strong> - Were currently experiencing degraded search performance. Were working to resolve the issue.</li><li><strong>2013-01-24 21:53:13</strong> - Search is currently unavailable. An update will be provided once service has been restored.</li><li><strong>2013-01-24 23:52:52</strong> - We continue our work to restore access to search. Updates will be provided as we progress.</li><li><strong>2013-01-25 02:15:43</strong> - Search remains unavailable. The cluster is recovering slowly and we continue to monitor its progress. Well provide further updates as they become available.</li><li><strong>2013-01-25 15:23:41</strong> - we are looking into issues accessing some GitHub Pages.</li><li><strong>2013-01-25 15:43:23</strong> - GitHub Pages issues have been resolved. We are continuing to work on Search.</li><li><strong>2013-01-25 15:54:08</strong> - The search cluster has recovered, but we are keeping it offline while we perform some additional maintenance. We will provide additional updates as we have more information to share.</li><li><strong>2013-01-25 16:05:35</strong> - We are investigating availability issues with a subset of GitHub Pages.</li><li><strong>2013-01-25 16:20:26</strong> - Access to GitHub Pages has been restored.</li><li><strong>2013-01-25 16:38:07</strong> - The search cluster has recovered, but we are keeping it offline while we perform some additional maintenance. We will provide additional updates as we have more information to share.</li><li><strong>2013-01-26 01:10:45</strong> - We have re-enabled the code search cluster. A small percentage of code is currently missing from search results as we backfill it into the cluster again. New code pushes are updating our indexes normally. We will be posting a post-mortem on the GitHub blog next week with further details.</li></ul>",
+                "incident_id": "xqj5k7lhbrz3",
+                "created_at": "2018-12-05T11:32:25.190Z",
+                "updated_at": "2018-12-05T11:32:25.190Z",
+                "display_at": "2013-01-24T21:47:49.000Z",
+                "affected_components": [
+                    {
+                        "code": "vg70hn9s2tyj",
+                        "name": "GitHub Pages",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "8l4ygp009s5s",
+                        "name": "Git Operations",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "8l4ygp009s5s",
+                "name": "Git Operations",
+                "status": "operational",
+                "created_at": "2017-01-31T20:05:05.370Z",
+                "updated_at": "2022-07-01T09:48:53.272Z",
+                "position": 1,
+                "description": "Performance of git clones, pulls, pushes, and associated operations",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "vg70hn9s2tyj",
+                "name": "Pages",
+                "status": "operational",
+                "created_at": "2017-01-31T20:04:33.923Z",
+                "updated_at": "2022-08-10T01:31:09.465Z",
+                "position": 9,
+                "description": "Frontend application and API servers for Pages builds",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}

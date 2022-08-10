@@ -1,0 +1,61 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-08-10T08:09:51.596Z"
+    },
+    "incident": {
+        "id": "b6q69ng4qwy7",
+        "name": "Incident on 2013-09-18 22:54:33 UTC",
+        "status": "resolved",
+        "created_at": "2013-09-18T22:54:33.000Z",
+        "updated_at": "2018-12-05T11:36:57.202Z",
+        "monitoring_at": null,
+        "resolved_at": "2013-09-18T22:54:33.000Z",
+        "impact": "minor",
+        "shortlink": "http://stspg.io/ad9b86769",
+        "started_at": "2013-09-18T22:54:33.000Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "8tx3zrqrsp6d",
+                "status": "resolved",
+                "body": "<ul><li><strong>2013-09-18 22:54:33</strong> - We're investigating issues loading some GitHub Pages.</li><li><strong>2013-09-18 22:55:46</strong> - Everything operating normally.</li></ul>",
+                "incident_id": "b6q69ng4qwy7",
+                "created_at": "2018-12-05T11:36:57.190Z",
+                "updated_at": "2018-12-05T11:36:57.190Z",
+                "display_at": "2013-09-18T22:54:33.000Z",
+                "affected_components": [
+                    {
+                        "code": "vg70hn9s2tyj",
+                        "name": "GitHub Pages",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": false,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "vg70hn9s2tyj",
+                "name": "Pages",
+                "status": "operational",
+                "created_at": "2017-01-31T20:04:33.923Z",
+                "updated_at": "2022-08-10T01:31:09.465Z",
+                "position": 9,
+                "description": "Frontend application and API servers for Pages builds",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}
