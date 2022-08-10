@@ -2,7 +2,7 @@ import requests
 import json
 import os
 from tqdm import tqdm
-
+import sys
 
 def download_all_incident_codes():
     incident_codes = []
@@ -26,7 +26,8 @@ def download_all_incident_codes():
                 #     'timestamp': "Aug <var data-var='date'>10</var>, <var data-var='time'>00:17</var> - <var data-var='time'>01:30</var> UTC"
                 # }
                 # Exclude all maintenances
-                if (incident['impact'] != 'maintenance'):
+                # Only include resolved incidents
+                if incident['impact'] != 'maintenance' and incident['status'] == 'resolved':
                     incident_codes.append(incident['code'])
     with open('incident_codes.json', 'w') as file:
         json.dump(incident_codes, file)
@@ -41,18 +42,18 @@ def read_incident_codes():
 
 def get_incident(id: str):
     url = f'https://www.githubstatus.com/api/v2/incidents/{id}.json'
-    #
     response = requests.get(url)
     return response.json()
 
+def download_incident_record(id: str):
+    incident = get_incident(id)
+    with open(f'incidents/{id}.json', 'w') as file:
+        json.dump(incident, file, indent=4)
 
 def download_all_incident_records():
     incident_codes = read_incident_codes()
     for incident_code in tqdm(incident_codes):
-        # print(incident_code)
-        incident = get_incident(incident_code)
-        with open(f'incidents/{incident_code}.json', 'w') as file:
-            json.dump(incident, file, indent=4)
+        download_incident_record(incident_code)
 
 
 def read_incident(id: str):
@@ -126,6 +127,8 @@ def create_incident_commits():
         os.system(cmd)
         # break
 
+def get_recent_incidents():
+    return requests.get('https://www.githubstatus.com/api/v2/incidents.json').json()['incidents']
 
 def main():
     # incident_codes = read_incident_codes()
@@ -134,6 +137,35 @@ def main():
     # download_all_incident_records()
     create_incident_commits()
 
+def print_help():
+    print("Usage: python main.py [options]")
+    print("Options")
+    print("update               Update incident data")
+    print("commit               Update github-incident-history commit history")
+
+def update_data():
+    incident_codes = read_incident_codes()
+    recent_incidents = get_recent_incidents()
+    recent_incidents.reverse()
+    for incident in recent_incidents:
+        if (incident['id'] not in incident_codes) and (incident['status'] == 'resolved') and (incident['impact'] != 'maintenance'): 
+            incident_codes.insert(0, incident['id'])
+    with open('incident_codes.json', 'w') as file:
+        json.dump(incident_codes, file)
+
+    for incident_code in incident_codes:
+        file_name = f'incidents/{incident_code}.json'
+        if os.path.exists(file_name) == False:
+            download_incident_record(incident_code)
+
+def update_commits():
+    pass
 
 if __name__ == '__main__':
-    main()
+    if len(sys.argv) != 2:
+        print_help()
+        exit(1)
+    command = sys.argv[1]
+    if command == 'update':
+        update_data()
+    
