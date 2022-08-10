@@ -102,6 +102,8 @@ def parse_body(incident):
                 update = raw_update.split('</strong>')
                 body += update[0] + update[1]
                 body += '\n'
+    # escape "
+    body.replace('\"', '\\\"')
     return body
 
 def create_incident_commits():
