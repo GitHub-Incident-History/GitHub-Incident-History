@@ -9,8 +9,9 @@ def download_all_incident_codes():
         'Accept': 'application/json',
     }
     for page in range(1, 52):
-        response = requests.get(
-            'https://www.githubstatus.com/history?page=1', headers=headers)
+        url = f'https://www.githubstatus.com/history?page={page}'
+        print(url)
+        response = requests.get(url, headers=headers)
         months = response.json()['months']
         for month in months:
             incidents = month['incidents']
@@ -19,7 +20,8 @@ def download_all_incident_codes():
                 #     'code': '8tnqgcg1qkk1',
                 #     'name': 'Incident with Actions, API Requests, Pages and Pull Requests', 
                 #     'message': 'This incident has been resolved.',
-                #     'impact': 'minor', 'timestamp': "Aug <var data-var='date'>10</var>, <var data-var='time'>00:17</var> - <var data-var='time'>01:30</var> UTC"
+                #     'impact': 'minor', 
+                #     'timestamp': "Aug <var data-var='date'>10</var>, <var data-var='time'>00:17</var> - <var data-var='time'>01:30</var> UTC"
                 # }
                 incident_codes.append(incident['code'])
     with open('incident_codes.json', 'w') as file:
@@ -32,11 +34,15 @@ def read_incident_codes():
         incident_codes = json.load(file)
     return incident_codes
 
+def get_incident(id: str):
+        # https://www.githubstatus.com/api/v2/incidents/fjrlf0wn8vmq.json
+    response = requests.get()
+    pass
 
 def main():
-    download_all_incident_codes()
-
-    # https://www.githubstatus.com/api/v2/incidents/fjrlf0wn8vmq.json
+    incident_codes = read_incident_codes()
+    print(len(incident_codes))
+    # download_all_incident_codes()
 
 
 if __name__ == '__main__':
