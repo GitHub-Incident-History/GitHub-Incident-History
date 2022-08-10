@@ -165,6 +165,7 @@ def update_commits():
     os.system('git branch -D github-incidents-history')
     os.system('git checkout --orphan github-incidents-history')
     os.system('git reset')
+    os.system('git add .github/workflows/update_data.yml')
     create_incident_commits()
     os.system('git push -u origin github-incidents-history -f')
 
