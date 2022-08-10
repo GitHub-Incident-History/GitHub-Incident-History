@@ -102,9 +102,15 @@ def parse_body(incident):
                 update = raw_update.split('</strong>')
                 body += update[0] + update[1]
                 body += '\n'
-    # escape "
-    body.replace('\"', '\\\"')
     return body
+
+def create_git_commit_message(title, body):
+    file_name = 'commit_message.txt'
+    with open(file_name, 'w') as file:
+        file.write(title)
+        file.write('\n\n')
+        file.write(body)
+    return file_name
 
 def create_incident_commits():
     incidents = read_all_incidents()
@@ -113,7 +119,8 @@ def create_incident_commits():
         date = incident['incident']['created_at']
         name = incident['incident']['name']
         body = parse_body(incident)
-        cmd = f'git commit --allow-empty -m "{name}" -m "{body}"'
+        filename = create_git_commit_message(name, body)
+        cmd = f'git commit --allow-empty -F "{filename}"'
         os.environ['GIT_AUTHOR_DATE'] = date
         os.environ['GIT_COMMITTER_DATE'] = date
         os.system(cmd)
