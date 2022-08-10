@@ -162,6 +162,8 @@ def update_data():
             download_incident_record(incident_code)
 
 def update_commits():
+    os.system('git config user.email 100416422+GitHub-Incidents-History@users.noreply.github.com')
+    os.system('git config user.name GitHub-Incidents-History')    
     os.system('git branch -D github-incidents-history')
     os.system('git checkout --orphan github-incidents-history')
     os.system('git reset')
