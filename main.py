@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 from tqdm import tqdm
 
 
@@ -61,20 +62,23 @@ def create_incident_commits():
     incident_codes = read_incident_codes()
     incidents = []
     for incident_code in incident_codes:
-        incident = read_incident(incident_code)
-        if 'incident' not in incident:
-            print(incident_code)
-            exit(0)
-        incidents.append(incident)
-    # print(incidents[0]['incident']['created_at'])
+        incidents.append(read_incident(incident_code))
     incidents.sort(key=lambda x:x['incident']['created_at'])
-    print(len(incidents))
+    for incident in tqdm(incidents):
+        date = incident['incident']['created_at']
+        name = incident['incident']['name']
+        cmd = f'git commit --allow-empty -m "{name}"'
+        os.environ['GIT_AUTHOR_DATE'] = date
+        os.environ['GIT_COMMITTER_DATE'] = date
+        os.system(cmd)
+        # break
+
 def main():
     # incident_codes = read_incident_codes()
     # print(len(incident_codes))
     # download_all_incident_codes()
-    download_all_incident_records()
-    # create_incident_commits()
+    # download_all_incident_records()
+    create_incident_commits()
 
 
 if __name__ == '__main__':
