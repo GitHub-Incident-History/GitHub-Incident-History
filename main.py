@@ -243,7 +243,6 @@ def update_commits():
     os.system('git push -u origin github-incidents-history -f')
 
 if __name__ == '__main__':
-    render_streak()
     if len(sys.argv) != 2:
         print_help()
         exit(1)
