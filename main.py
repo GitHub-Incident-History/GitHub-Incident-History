@@ -159,6 +159,25 @@ def update_data():
         if os.path.exists(file_name) == False:
             download_incident_record(incident_code)
 
+def get_the_latest_incident():
+    incidents = read_all_incidents()
+    incident = max(incidents, key=lambda x: x['incident']['created_at'])
+    return incident
+
+def render(filename, **kwargs):
+    s = ""
+    with open(filename, 'r') as file:
+        s = file.read()
+    for key, value in kwargs.items():
+        s = s.replace("{{ " + key + " }}", value).strip(' \n')
+    with open(filename, 'w') as file:
+        file.write(s)
+
+def render_README():
+    latest_incident = get_the_latest_incident()
+    details = parse_body(latest_incident)
+    render("README.md", latest_incident_details=details)
+
 def update_commits():
     os.system('git config user.email 100416422+GitHub-Incidents-History@users.noreply.github.com')
     os.system('git config user.name GitHub-Incidents-History')    
@@ -166,10 +185,18 @@ def update_commits():
     os.system('git checkout --orphan github-incidents-history')
     os.system('git reset')
     os.system('git add .github/workflows/update_data.yml')
+
+    render_README()
+    os.system('git add README.md')
+    os.system('git add stats.svg')
+    os.system('git add streak.svg')
+    os.system('git add top.svg')
+
     create_incident_commits()
     os.system('git push -u origin github-incidents-history -f')
 
 if __name__ == '__main__':
+    render_README()
     if len(sys.argv) != 2:
         print_help()
         exit(1)
