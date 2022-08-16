@@ -32,7 +32,7 @@
             <g transform="translate(1,48)">
                 <rect width="163" height="50" stroke="none" fill="none"/>
                 <text x="81.5" y="32" stroke-width="0" text-anchor="middle" style="font-family:Segoe UI, Ubuntu, sans-serif;font-weight:700;font-size:28px;font-style:normal;fill:#151515;stroke:none; opacity: 0; animation: fadein 0.5s linear forwards 0.6s;">
-                    {{ total_incidents }}
+                    1,086
                 </text>
             </g>
 
@@ -48,7 +48,7 @@
             <g transform="translate(1,114)">
                 <rect width="163" height="50" stroke="none" fill="none"/>
                 <text x="81.5" y="32" stroke-width="0" text-anchor="middle" style="font-family:Segoe UI, Ubuntu, sans-serif;font-weight:400;font-size:12px;font-style:normal;fill:#464646;stroke:none; opacity: 0; animation: fadein 0.5s linear forwards 0.8s;">
-                    {{ total_incidents_range }}
+                    Feb 7, 2010 - Present
                 </text>
             </g>
         </g>
@@ -57,7 +57,7 @@
             <g transform="translate(166,48)">
                 <rect width="163" height="50" stroke="none" fill="none"/>
                 <text x="81.5" y="32" stroke-width="0" text-anchor="middle" style="font-family:Segoe UI, Ubuntu, sans-serif;font-weight:700;font-size:28px;font-style:normal;fill:#151515;stroke:none;animation: currstreak 0.6s linear forwards;">
-                    {{ current_streak }}
+                    0
                 </text>
             </g>
 
@@ -73,7 +73,7 @@
             <g transform="translate(166,145)">
                 <rect width="163" height="26" stroke="none" fill="none"/>
                 <text x="81.5" y="21" stroke-width="0" text-anchor="middle" style="font-family:Segoe UI, Ubuntu, sans-serif;font-weight:400;font-size:12px;font-style:normal;fill:#464646;stroke:none;opacity: 0; animation: fadein 0.5s linear forwards 0.9s;">
-                    {{ current_streak_range }}
+                    New incident today :(
                 </text>
             </g>
 
@@ -93,7 +93,7 @@
             <g transform="translate(331,48)">
                 <rect width="163" height="50" stroke="none" fill="none"/>
                 <text x="81.5" y="32" stroke-width="0" text-anchor="middle" style="font-family:Segoe UI, Ubuntu, sans-serif;font-weight:700;font-size:28px;font-style:normal;fill:#151515;stroke:none; opacity: 0; animation: fadein 0.5s linear forwards 1.2s;">
-                    {{ longest_streak }}
+                    56
                 </text>
             </g>
 
@@ -109,7 +109,7 @@
             <g transform="translate(331,114)">
                 <rect width="163" height="50" stroke="none" fill="none"/>
                 <text x="81.5" y="32" stroke-width="0" text-anchor="middle" style="font-family:Segoe UI, Ubuntu, sans-serif;font-weight:400;font-size:12px;font-style:normal;fill:#464646;stroke:none;opacity: 0; animation: fadein 0.5s linear forwards 1.4s;">
-                    {{ longest_streak_range }}
+                    May 6, 2015 - Jul 1, 2015
                 </text>
             </g>
         </g>
