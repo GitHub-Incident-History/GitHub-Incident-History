@@ -65,7 +65,7 @@
             <g transform="translate(166,108)">
                 <rect width="163" height="50" stroke="none" fill="none"/>
                 <text x="81.5" y="32" stroke-width="0" text-anchor="middle" style="font-family:Segoe UI, Ubuntu, sans-serif;font-weight:700;font-size:14px;font-style:normal;fill:#fb8c00;stroke:none;opacity: 0; animation: fadein 0.5s linear forwards 0.9s;">
-                    Current Accident-free Streak
+                    Current Streak
                 </text>
             </g>
 
@@ -101,7 +101,7 @@
             <g transform="translate(331,84)">
                 <rect width="163" height="50" stroke="none" fill="none"/>
                 <text x="81.5" y="32" stroke-width="0" text-anchor="middle" style="font-family:Segoe UI, Ubuntu, sans-serif;font-weight:400;font-size:14px;font-style:normal;fill:#151515;stroke:none;opacity: 0; animation: fadein 0.5s linear forwards 1.3s;">
-                    Longest Accident-free Streak
+                    Longest Streak
                 </text>
             </g>
 
