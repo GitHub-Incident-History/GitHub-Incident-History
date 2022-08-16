@@ -225,10 +225,10 @@ def render_streak():
         longest_streak_range=longest_streak_range)
 
 def update_commits():
-    os.system('git config user.email 100416422+GitHub-Incidents-History@users.noreply.github.com')
-    os.system('git config user.name GitHub-Incidents-History')    
-    os.system('git branch -D github-incidents-history')
-    os.system('git checkout --orphan github-incidents-history')
+    os.system('git config user.email 100416422+github-incident-history@users.noreply.github.com')
+    os.system('git config user.name github-incident-history')    
+    os.system('git branch -D github-incident-history')
+    os.system('git checkout --orphan github-incident-history')
     os.system('git reset')
     os.system('git add .github/workflows/update_data.yml')
 
@@ -240,7 +240,7 @@ def update_commits():
     os.system('git add top.svg')
 
     create_incident_commits()
-    os.system('git push -u origin github-incidents-history -f')
+    os.system('git push -u origin github-incident-history -f')
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
