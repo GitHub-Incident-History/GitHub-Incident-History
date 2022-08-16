@@ -1,6 +1,6 @@
 ## Latest GitHub incident ❤️‍🩹
 
-### {{ latest_incident_name }}
+### Incident with Codespaces
 
 ```
 2022-08-16T13:38:19.326Z - investigating: We are investigating reports of degraded performance for Codespaces.
