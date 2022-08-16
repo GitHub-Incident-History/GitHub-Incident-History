@@ -150,7 +150,6 @@ def update_data():
     for incident in recent_incidents:
         if (incident['id'] not in incident_codes) and (incident['status'] == 'resolved') and (incident['impact'] != 'maintenance'): 
             incident_codes.insert(0, incident['id'])
-
     with open('incident_codes.json', 'w') as file:
         json.dump(incident_codes, file)
 
@@ -197,7 +196,6 @@ def update_commits():
     os.system('git push -u origin github-incidents-history -f')
 
 if __name__ == '__main__':
-    render_README()
     if len(sys.argv) != 2:
         print_help()
         exit(1)
