@@ -61,10 +61,10 @@ jobs:
       - name: Reset default branch
         run: gh api repos/GitHub-Incident-History/GitHub-Incident-History --method PATCH --field 'default_branch=test-branch'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Restore default branch
         run: gh api repos/GitHub-Incident-History/GitHub-Incident-History --method PATCH --field 'default_branch=github-incident-history'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           
