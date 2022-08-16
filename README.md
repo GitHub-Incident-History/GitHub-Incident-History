@@ -26,6 +26,6 @@ SLA (Last year) -->
 ## About this project
 
 - Keep all GitHub incident history on the main branch.
-- Fetch new incidents data automatically every hour automatically.
+- Fetch new incidents data every hour automatically.
 - Create a commit with corresponding author time for each incident, so it shows up as contributions under this account.
 - Visualise GitHub incident history with your favourite GitHub contribution visualisation tools!
