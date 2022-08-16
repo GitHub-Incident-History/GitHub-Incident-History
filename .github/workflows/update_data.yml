@@ -57,3 +57,18 @@ jobs:
       - name: Run update script
         id: update
         run: python3 main.py commit
+      
+      - name: Reset default branch
+        run: |
+          curl \
+          -X PATCH \
+          -H "Accept: application/vnd.github+json" \ 
+          -H "Authorization: token ${{ github.token }}" \
+          https://api.github.com/repos/GitHub-Incident-History/GitHub-Incident-History \
+          -d '{"default_branchstring":"test-branch"}'
+          curl \
+          -X PATCH \
+          -H "Accept: application/vnd.github+json" \ 
+          -H "Authorization: token ${{ github.token }}" \
+          https://api.github.com/repos/GitHub-Incident-History/GitHub-Incident-History \
+          -d '{"default_branchstring":"github-incident-history"}'
