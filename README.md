@@ -1,6 +1,6 @@
 ## Latest GitHub incident ❤️‍🩹
 
-### Incident with Actions, API Requests, Pages and Pull Requests
+### {{ latest_incident_name }}
 
 ```
 {{ latest_incident_details }}

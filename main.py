@@ -175,8 +175,9 @@ def render(filename, **kwargs):
 
 def render_README():
     latest_incident = get_the_latest_incident()
+    name = latest_incident['incident']['name']
     details = parse_body(latest_incident)
-    render("README.md", latest_incident_details=details)
+    render("README.md", latest_incident_name=name, latest_incident_details=details)
 
 def update_commits():
     os.system('git config user.email 100416422+GitHub-Incidents-History@users.noreply.github.com')
