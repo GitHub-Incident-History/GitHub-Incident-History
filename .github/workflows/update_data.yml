@@ -59,20 +59,12 @@ jobs:
         run: python3 main.py commit
       
       - name: Reset default branch
-        run: |
-          curl \
-          -X PATCH \
-          -H "Accept: application/vnd.github+json" \ 
-          -H "Authorization: token ${{ github.token }}" \
-          https://api.github.com/repos/GitHub-Incident-History/GitHub-Incident-History \
-          -d '{"default_branchstring":"test-branch"}'
+        run: gh api repos/GitHub-Incident-History/GitHub-Incident-History --method PATCH --field 'default_branch=test-branch'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Restore default branch
-        run: |
-          curl \
-          -X PATCH \
-          -H "Accept: application/vnd.github+json" \ 
-          -H "Authorization: token ${{ github.token }}" \
-          https://api.github.com/repos/GitHub-Incident-History/GitHub-Incident-History \
-          -d '{"default_branchstring":"github-incident-history"}'
+        run: gh api repos/GitHub-Incident-History/GitHub-Incident-History --method PATCH --field 'default_branch=github-incident-history'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
