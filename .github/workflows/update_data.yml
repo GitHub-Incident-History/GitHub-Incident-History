@@ -66,9 +66,13 @@ jobs:
           -H "Authorization: token ${{ github.token }}" \
           https://api.github.com/repos/GitHub-Incident-History/GitHub-Incident-History \
           -d '{"default_branchstring":"test-branch"}'
+
+      - name: Restore default branch
+        run: |
           curl \
           -X PATCH \
           -H "Accept: application/vnd.github+json" \ 
           -H "Authorization: token ${{ github.token }}" \
           https://api.github.com/repos/GitHub-Incident-History/GitHub-Incident-History \
           -d '{"default_branchstring":"github-incident-history"}'
+          
