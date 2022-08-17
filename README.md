@@ -16,10 +16,11 @@ Total downtime (Last year)
 
 SLA (Last year) -->
 
-![GitHub Incident-free Streak](streak-light.svg#gh-light-mode-only)
-
-![GitHub Incident-free Streak](streak-dark.svg#gh-dark-mode-only)
-
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="streak-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="streak-dark.svg">
+  <img alt="GitHub Incident-free Streak" src="streak-light.svg">
+</picture>
 
 <!-- Most downed date (monday - sunday) -->
 
@@ -32,6 +33,8 @@ SLA (Last year) -->
 - [Create a commit](https://github.com/GitHub-Incident-History/GitHub-Incident-History/commits/github-incident-history) with corresponding [author date](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/troubleshooting-commits-on-your-timeline#how-github-uses-the-git-author-date-and-commit-date) for each incident, so it shows up as contributions under this account.
 - Visualise GitHub incident history with your favourite [GitHub contribution visualisation tools](https://skyline.github.com/GitHub-Incident-History)!
 
-![SSR Contribution](https://ssr-contributions-ckzb5dj3p-catsjuice.vercel.app/_/GitHub-Incident-History?chart=3dbar&gap=0&scale=3&gradient=true&flatten=0&animation=wave&animation_duration=3&animation_wave_center=0_0&format=svg&weeks=50&widget_size=small#gh-light-mode-only)
-
-![SSR Contribution](https://ssr-contributions-ckzb5dj3p-catsjuice.vercel.app/_/GitHub-Incident-History?chart=3dbar&gap=0&scale=3&gradient=true&animation=wave&animation_duration=3&animation_wave_center=0_0&format=svg&weeks=50&widget_size=small&dark=true#gh-dark-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://ssr-contributions-ckzb5dj3p-catsjuice.vercel.app/_/GitHub-Incident-History?chart=3dbar&gap=0&scale=3&gradient=true&flatten=0&animation=wave&animation_duration=3&animation_wave_center=0_0&format=svg&weeks=50&widget_size=small">
+  <source media="(prefers-color-scheme: dark)" srcset="https://ssr-contributions-ckzb5dj3p-catsjuice.vercel.app/_/GitHub-Incident-History?chart=3dbar&gap=0&scale=3&gradient=true&animation=wave&animation_duration=3&animation_wave_center=0_0&format=svg&weeks=50&widget_size=small&dark=true">
+  <img alt="SSR Contribution" src="https://ssr-contributions-ckzb5dj3p-catsjuice.vercel.app/_/GitHub-Incident-History?chart=3dbar&gap=0&scale=3&gradient=true&flatten=0&animation=wave&animation_duration=3&animation_wave_center=0_0&format=svg&weeks=50&widget_size=small">
+</picture>
