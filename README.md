@@ -16,7 +16,9 @@ Total downtime (Last year)
 
 SLA (Last year) -->
 
-![GitHub Streak](streak.svg)
+![GitHub Incident-free Streak](streak-light.svg#gh-light-mode-only)
+
+![GitHub Incident-free Streak](streak-dark.svg#gh-dark-mode-only)
 
 
 <!-- Most downed date (monday - sunday) -->

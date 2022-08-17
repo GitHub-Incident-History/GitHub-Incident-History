@@ -217,13 +217,21 @@ def render_streak():
             if difference >= longest_streak:
                 longest_streak = difference
                 longest_streak_range =  f'{format_date(day1)} - {format_date(day2)}'
-    render('streak.svg',
+    render('streak-light.svg',
         total_incidents=total_incidents,
         total_incidents_range=total_incidents_range,
         current_streak=current_streak,
         current_streak_range=current_streak_range,
         longest_streak=longest_streak,
         longest_streak_range=longest_streak_range)
+    render('streak-dark.svg',
+        total_incidents=total_incidents,
+        total_incidents_range=total_incidents_range,
+        current_streak=current_streak,
+        current_streak_range=current_streak_range,
+        longest_streak=longest_streak,
+        longest_streak_range=longest_streak_range)
+    
 
 def update_commits():
     os.system('git config user.email 100416422+github-incident-history@users.noreply.github.com')
