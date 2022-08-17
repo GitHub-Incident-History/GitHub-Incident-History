@@ -1,6 +1,6 @@
 ## Latest GitHub incident ❤️‍🩹
 
-### {{ latest_incident_name }}
+### [{{ latest_incident_name }}]({{ url }})
 
 ```
 {{ latest_incident_details }}

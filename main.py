@@ -182,7 +182,8 @@ def render_README():
     latest_incident = get_the_latest_incident()
     name = latest_incident['incident']['name']
     details = parse_body(latest_incident)
-    render("README.md", latest_incident_name=name, latest_incident_details=details)
+    url = latest_incident['incident']['shortlink']
+    render("README.md", latest_incident_name=name, latest_incident_details=details, url=url)
 
 def day_difference(day1, day2):
     return (day2 - day1).days
@@ -251,6 +252,8 @@ if __name__ == '__main__':
         update_data()
     elif command == 'commit':
         update_commits()
+    elif command == 'test':
+        pass
     else:
         print_help()
         exit(1)
