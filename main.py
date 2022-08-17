@@ -245,7 +245,8 @@ def update_commits():
     os.system('git add README.md')
     render_streak()
     os.system('git add stats.svg')
-    os.system('git add streak.svg')
+    os.system('git add streak-light.svg')
+    os.system('git add streak-dark.svg')
     os.system('git add top.svg')
 
     create_incident_commits()
