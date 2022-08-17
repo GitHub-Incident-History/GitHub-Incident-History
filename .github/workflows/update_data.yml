@@ -63,6 +63,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
+      - name: Wait a second for the contributions count to be updated
+        run: sleep 10
+  
       - name: Restore default branch
         run: gh api repos/GitHub-Incident-History/GitHub-Incident-History --method PATCH --field 'default_branch=github-incident-history'
         env:
