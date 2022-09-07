@@ -1,0 +1,74 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2022-09-07T12:23:37.203Z"
+    },
+    "incident": {
+        "id": "1nyvf21q5dn7",
+        "name": "Incident with Issues",
+        "status": "resolved",
+        "created_at": "2022-09-07T11:55:21.470Z",
+        "updated_at": "2022-09-07T12:21:11.615Z",
+        "monitoring_at": null,
+        "resolved_at": "2022-09-07T12:21:11.595Z",
+        "impact": "minor",
+        "shortlink": "https://stspg.io/04ry3yhr4w7t",
+        "started_at": "2022-09-07T11:55:21.462Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "63yg5kvhkl2f",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "1nyvf21q5dn7",
+                "created_at": "2022-09-07T12:21:11.595Z",
+                "updated_at": "2022-09-07T12:21:11.595Z",
+                "display_at": "2022-09-07T12:21:11.595Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "wv2qk5bx9cx2",
+                "status": "investigating",
+                "body": "We are investigating reports of degraded performance for Issues.",
+                "incident_id": "1nyvf21q5dn7",
+                "created_at": "2022-09-07T11:55:21.522Z",
+                "updated_at": "2022-09-07T11:55:21.522Z",
+                "display_at": "2022-09-07T11:55:21.522Z",
+                "affected_components": [
+                    {
+                        "code": "kr09ddfgbfsf",
+                        "name": "Issues",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "kr09ddfgbfsf",
+                "name": "Issues",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.638Z",
+                "updated_at": "2022-09-07T12:21:18.457Z",
+                "position": 5,
+                "description": "Requests for Issues on GitHub.com",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}
