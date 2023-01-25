@@ -1,0 +1,228 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2023-01-25T09:24:06.441Z"
+    },
+    "incident": {
+        "id": "9c941kssjk0q",
+        "name": "Incident with Actions, API Requests, Codespaces and Copilot",
+        "status": "resolved",
+        "created_at": "2023-01-25T07:53:55.617Z",
+        "updated_at": "2023-01-25T09:10:21.408Z",
+        "monitoring_at": null,
+        "resolved_at": "2023-01-25T09:10:21.389Z",
+        "impact": "minor",
+        "shortlink": "https://stspg.io/svhg85s497v1",
+        "started_at": "2023-01-25T07:53:55.609Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "sygbn14k1byh",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "9c941kssjk0q",
+                "created_at": "2023-01-25T09:10:21.389Z",
+                "updated_at": "2023-01-25T09:10:21.389Z",
+                "display_at": "2023-01-25T09:10:21.389Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "ngb727ysljyy",
+                "status": "investigating",
+                "body": "We are investigating reports of issues with service(s): multiple services. We will continue to keep users updated on progress towards mitigation.",
+                "incident_id": "9c941kssjk0q",
+                "created_at": "2023-01-25T08:30:28.217Z",
+                "updated_at": "2023-01-25T08:30:28.217Z",
+                "display_at": "2023-01-25T08:30:28.217Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "btzctvd9gnjy",
+                "status": "investigating",
+                "body": "Actions is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+                "incident_id": "9c941kssjk0q",
+                "created_at": "2023-01-25T08:04:50.440Z",
+                "updated_at": "2023-01-25T08:04:50.440Z",
+                "display_at": "2023-01-25T08:04:50.440Z",
+                "affected_components": [
+                    {
+                        "code": "brv1bkgrwx7q",
+                        "name": "API Requests",
+                        "old_status": "partial_outage",
+                        "new_status": "partial_outage"
+                    },
+                    {
+                        "code": "br0l2tvcx85d",
+                        "name": "Actions",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "h2ftsgbw7kmk",
+                        "name": "Codespaces",
+                        "old_status": "partial_outage",
+                        "new_status": "partial_outage"
+                    },
+                    {
+                        "code": "pjmpxvq2cmr2",
+                        "name": "Copilot",
+                        "old_status": "partial_outage",
+                        "new_status": "partial_outage"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "fkp7d6dsc5vz",
+                "status": "investigating",
+                "body": "Codespaces is experiencing degraded performance. We are continuing to investigate.",
+                "incident_id": "9c941kssjk0q",
+                "created_at": "2023-01-25T07:54:47.133Z",
+                "updated_at": "2023-01-25T07:54:47.133Z",
+                "display_at": "2023-01-25T07:54:47.133Z",
+                "affected_components": [
+                    {
+                        "code": "brv1bkgrwx7q",
+                        "name": "API Requests",
+                        "old_status": "partial_outage",
+                        "new_status": "partial_outage"
+                    },
+                    {
+                        "code": "h2ftsgbw7kmk",
+                        "name": "Codespaces",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "pjmpxvq2cmr2",
+                        "name": "Copilot",
+                        "old_status": "partial_outage",
+                        "new_status": "partial_outage"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "jktxgl8lkg1z",
+                "status": "investigating",
+                "body": "API Requests is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+                "incident_id": "9c941kssjk0q",
+                "created_at": "2023-01-25T07:53:59.286Z",
+                "updated_at": "2023-01-25T07:53:59.286Z",
+                "display_at": "2023-01-25T07:53:59.286Z",
+                "affected_components": [
+                    {
+                        "code": "brv1bkgrwx7q",
+                        "name": "API Requests",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    },
+                    {
+                        "code": "pjmpxvq2cmr2",
+                        "name": "Copilot",
+                        "old_status": "partial_outage",
+                        "new_status": "partial_outage"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "lypn8lyz9r5q",
+                "status": "investigating",
+                "body": "We are investigating reports of degraded performance for Copilot.",
+                "incident_id": "9c941kssjk0q",
+                "created_at": "2023-01-25T07:53:55.656Z",
+                "updated_at": "2023-01-25T07:53:55.656Z",
+                "display_at": "2023-01-25T07:53:55.656Z",
+                "affected_components": [
+                    {
+                        "code": "pjmpxvq2cmr2",
+                        "name": "Copilot",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "brv1bkgrwx7q",
+                "name": "API Requests",
+                "status": "operational",
+                "created_at": "2017-01-31T20:01:46.621Z",
+                "updated_at": "2023-01-25T09:10:27.805Z",
+                "position": 2,
+                "description": "Requests for GitHub APIs",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "br0l2tvcx85d",
+                "name": "Actions",
+                "status": "partial_outage",
+                "created_at": "2019-11-13T18:02:19.432Z",
+                "updated_at": "2023-01-25T09:14:35.802Z",
+                "position": 7,
+                "description": "Workflows, Compute and Orchestration for GitHub Actions",
+                "showcase": false,
+                "start_date": null,
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "h2ftsgbw7kmk",
+                "name": "Codespaces",
+                "status": "operational",
+                "created_at": "2021-08-11T16:02:09.505Z",
+                "updated_at": "2023-01-25T09:10:28.664Z",
+                "position": 10,
+                "description": "Orchestration and Compute for GitHub Codespaces",
+                "showcase": false,
+                "start_date": "2021-08-11",
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            },
+            {
+                "id": "pjmpxvq2cmr2",
+                "name": "Copilot",
+                "status": "operational",
+                "created_at": "2022-06-21T16:04:33.017Z",
+                "updated_at": "2023-01-25T09:10:29.268Z",
+                "position": 11,
+                "description": null,
+                "showcase": false,
+                "start_date": "2022-06-21",
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}
