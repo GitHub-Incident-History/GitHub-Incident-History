@@ -1,0 +1,74 @@
+{
+    "page": {
+        "id": "kctbh9vrtdwd",
+        "name": "GitHub",
+        "url": "https://www.githubstatus.com",
+        "time_zone": "Etc/UTC",
+        "updated_at": "2023-04-18T09:52:00.062Z"
+    },
+    "incident": {
+        "id": "yqbbq78g1vpk",
+        "name": "Incident with Codespaces",
+        "status": "resolved",
+        "created_at": "2023-04-17T17:17:48.229Z",
+        "updated_at": "2023-04-17T17:42:53.520Z",
+        "monitoring_at": null,
+        "resolved_at": "2023-04-17T17:42:53.508Z",
+        "impact": "minor",
+        "shortlink": "https://stspg.io/7d51x695l8tf",
+        "started_at": "2023-04-17T17:17:48.223Z",
+        "page_id": "kctbh9vrtdwd",
+        "incident_updates": [
+            {
+                "id": "6zc01bpy5gz5",
+                "status": "resolved",
+                "body": "This incident has been resolved.",
+                "incident_id": "yqbbq78g1vpk",
+                "created_at": "2023-04-17T17:42:53.508Z",
+                "updated_at": "2023-04-17T17:42:53.508Z",
+                "display_at": "2023-04-17T17:42:53.508Z",
+                "affected_components": null,
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            },
+            {
+                "id": "fh379nm3vst2",
+                "status": "investigating",
+                "body": "We are investigating reports of degraded performance for Codespaces.",
+                "incident_id": "yqbbq78g1vpk",
+                "created_at": "2023-04-17T17:17:48.260Z",
+                "updated_at": "2023-04-17T17:17:48.260Z",
+                "display_at": "2023-04-17T17:17:48.260Z",
+                "affected_components": [
+                    {
+                        "code": "h2ftsgbw7kmk",
+                        "name": "Codespaces",
+                        "old_status": "operational",
+                        "new_status": "operational"
+                    }
+                ],
+                "deliver_notifications": true,
+                "custom_tweet": null,
+                "tweet_id": null
+            }
+        ],
+        "components": [
+            {
+                "id": "h2ftsgbw7kmk",
+                "name": "Codespaces",
+                "status": "operational",
+                "created_at": "2021-08-11T16:02:09.505Z",
+                "updated_at": "2023-04-17T17:42:58.967Z",
+                "position": 10,
+                "description": "Orchestration and Compute for GitHub Codespaces",
+                "showcase": false,
+                "start_date": "2021-08-11",
+                "group_id": null,
+                "page_id": "kctbh9vrtdwd",
+                "group": false,
+                "only_show_if_degraded": false
+            }
+        ]
+    }
+}
